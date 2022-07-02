@@ -1,0 +1,403 @@
+---
+title: Icenian Namelayer Bill
+---
+{
+    "ops": [
+        {
+            "attributes": {
+                "background": "transparent",
+                "bold": true
+            },
+            "insert": "The Icenian Namelayer Bill"
+        },
+        {
+            "attributes": {
+                "align": "center",
+                "header": 1
+            },
+            "insert": "\n"
+        },
+        {
+            "insert": "\n"
+        },
+        {
+            "attributes": {
+                "background": "transparent"
+            },
+            "insert": "This bill will establish the Icenia namelayer groups, and what their purposes are. "
+        },
+        {
+            "insert": "\n\n"
+        },
+        {
+            "attributes": {
+                "background": "transparent",
+                "bold": true
+            },
+            "insert": "Section 1: Citizen"
+        },
+        {
+            "attributes": {
+                "header": 2
+            },
+            "insert": "\n"
+        },
+        {
+            "insert": "\n"
+        },
+        {
+            "attributes": {
+                "background": "transparent"
+            },
+            "insert": "The following namelayer groups are considered the basic groups each Icenian Citizen should be Member on: "
+        },
+        {
+            "insert": "\n\n"
+        },
+        {
+            "attributes": {
+                "background": "transparent",
+                "bold": true
+            },
+            "insert": "1. Icenia-Citizen"
+        },
+        {
+            "attributes": {
+                "indent": 1
+            },
+            "insert": "\n\n"
+        },
+        {
+            "attributes": {
+                "background": "transparent"
+            },
+            "insert": "This group functions as the in-game group chat for all Icenian Citizens, and as a reinforcement group for doors, pressure plates, and buttons that all citizens may access."
+        },
+        {
+            "attributes": {
+                "indent": 1
+            },
+            "insert": "\n\n"
+        },
+        {
+            "attributes": {
+                "background": "transparent",
+                "bold": true
+            },
+            "insert": "2. Icenia-Factories"
+        },
+        {
+            "attributes": {
+                "indent": 1
+            },
+            "insert": "\n\n"
+        },
+        {
+            "attributes": {
+                "background": "transparent"
+            },
+            "insert": "All public factories must be reinforced to this group. All doors, pressure plates, and buttons leading into a public factory room must also be reinforced to Icenia-Factories."
+        },
+        {
+            "attributes": {
+                "indent": 1
+            },
+            "insert": "\n\n"
+        },
+        {
+            "attributes": {
+                "background": "transparent"
+            },
+            "insert": "Residents may be granted access to Icenia-Factories."
+        },
+        {
+            "attributes": {
+                "indent": 1
+            },
+            "insert": "\n\n"
+        },
+        {
+            "attributes": {
+                "background": "transparent",
+                "bold": true
+            },
+            "insert": "3. Icenia-Nether1"
+        },
+        {
+            "attributes": {
+                "indent": 1
+            },
+            "insert": "\n\n"
+        },
+        {
+            "attributes": {
+                "background": "transparent"
+            },
+            "insert": "This group will contain all the doors, pressure plates, and buttons that lead into the nether portal as well as areas in the nether itself."
+        },
+        {
+            "attributes": {
+                "indent": 1
+            },
+            "insert": "\n\n"
+        },
+        {
+            "attributes": {
+                "background": "transparent"
+            },
+            "insert": "Residents may be granted access to Icenia-Nether1."
+        },
+        {
+            "attributes": {
+                "indent": 1
+            },
+            "insert": "\n\n"
+        },
+        {
+            "attributes": {
+                "background": "transparent",
+                "bold": true
+            },
+            "insert": "4. Icenia-Farms"
+        },
+        {
+            "attributes": {
+                "indent": 1
+            },
+            "insert": "\n\n"
+        },
+        {
+            "attributes": {
+                "background": "transparent"
+            },
+            "insert": "Every farm in Icenia must be reinforced to Icenia-Farms."
+        },
+        {
+            "attributes": {
+                "indent": 1
+            },
+            "insert": "\n\n"
+        },
+        {
+            "attributes": {
+                "background": "transparent"
+            },
+            "insert": "Residents may be granted access to Icenia-Farm"
+        },
+        {
+            "attributes": {
+                "indent": 1
+            },
+            "insert": "\n"
+        },
+        {
+            "insert": "\n"
+        },
+        {
+            "attributes": {
+                "background": "transparent",
+                "bold": true
+            },
+            "insert": "Section 2: Infrastructure"
+        },
+        {
+            "attributes": {
+                "header": 2
+            },
+            "insert": "\n"
+        },
+        {
+            "insert": "\n"
+        },
+        {
+            "attributes": {
+                "background": "transparent"
+            },
+            "insert": "The following groups will be used to reinforce various Icenian infrastructure such as rails and roads."
+        },
+        {
+            "insert": "\n\n"
+        },
+        {
+            "attributes": {
+                "background": "transparent",
+                "bold": true
+            },
+            "insert": "1. Icenia-Roads"
+        },
+        {
+            "attributes": {
+                "indent": 1
+            },
+            "insert": "\n\n"
+        },
+        {
+            "attributes": {
+                "background": "transparent"
+            },
+            "insert": "All roads in the city of Icenia must be reinforced to Icenia-Roads. "
+        },
+        {
+            "attributes": {
+                "indent": 1
+            },
+            "insert": "\n\n"
+        },
+        {
+            "attributes": {
+                "background": "transparent",
+                "bold": true
+            },
+            "insert": "2. Icenia-Rail"
+        },
+        {
+            "attributes": {
+                "indent": 1
+            },
+            "insert": "\n\n"
+        },
+        {
+            "attributes": {
+                "background": "transparent"
+            },
+            "insert": "All rails built by Icenia must be reinforced to this group. Additionally, any structures associated with the rails will also be reinforced to Icenia-Rail"
+        },
+        {
+            "attributes": {
+                "indent": 1
+            },
+            "insert": "\n\n"
+        },
+        {
+            "attributes": {
+                "background": "transparent",
+                "bold": true
+            },
+            "insert": "3. Icenia-Infra"
+        },
+        {
+            "attributes": {
+                "indent": 1
+            },
+            "insert": "\n\n"
+        },
+        {
+            "attributes": {
+                "background": "transparent"
+            },
+            "insert": "Any other infrastructure not applicable to the two groups above should be reinforced to Icenia-Infra. Some examples include parks, public buildings, and walls."
+        },
+        {
+            "attributes": {
+                "indent": 1
+            },
+            "insert": "\n"
+        },
+        {
+            "insert": "\n"
+        },
+        {
+            "attributes": {
+                "background": "transparent",
+                "bold": true
+            },
+            "insert": "Section 3: Defense"
+        },
+        {
+            "attributes": {
+                "header": 2
+            },
+            "insert": "\n"
+        },
+        {
+            "insert": "\n"
+        },
+        {
+            "attributes": {
+                "background": "transparent"
+            },
+            "insert": "The following namelayer groups pertain to the defense of Icenia.  The Minister of Defense manages who is allowed in these groups:"
+        },
+        {
+            "insert": "\n\n"
+        },
+        {
+            "attributes": {
+                "background": "transparent",
+                "bold": true
+            },
+            "insert": "1. Icenia-Snitches"
+        },
+        {
+            "attributes": {
+                "indent": 1
+            },
+            "insert": "\n\n"
+        },
+        {
+            "attributes": {
+                "background": "transparent"
+            },
+            "insert": "This group serves as the main snitch group for Icenia. All border snitches will be reinforced to this group. "
+        },
+        {
+            "attributes": {
+                "indent": 1
+            },
+            "insert": "\n\n"
+        },
+        {
+            "attributes": {
+                "background": "transparent",
+                "bold": true
+            },
+            "insert": "2. Icenia-City-Snitches"
+        },
+        {
+            "attributes": {
+                "indent": 1
+            },
+            "insert": "\n\n"
+        },
+        {
+            "attributes": {
+                "background": "transparent"
+            },
+            "insert": "This group will host all of the jukebox snitches in Icenia City. "
+        },
+        {
+            "attributes": {
+                "indent": 1
+            },
+            "insert": "\n\n"
+        },
+        {
+            "attributes": {
+                "background": "transparent",
+                "bold": true
+            },
+            "insert": "3. Icenia-Defense"
+        },
+        {
+            "attributes": {
+                "indent": 1
+            },
+            "insert": "\n\n"
+        },
+        {
+            "attributes": {
+                "background": "transparent"
+            },
+            "insert": "All Icenian militia members must be in this group. It will serve as the first level of access for Icenia defense bunkers and other infrastructure. "
+        },
+        {
+            "attributes": {
+                "indent": 1
+            },
+            "insert": "\n"
+        },
+        {
+            "insert": "\n"
+        }
+    ]
+}
