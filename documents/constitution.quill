@@ -1418,7 +1418,215 @@ order: -1000
             "insert": "\n"
         },
         {
+            "insert": "\n\nAmendments"
+        },
+        {
+            "attributes": {
+                "header": 1
+            },
             "insert": "\n"
+        },
+        {
+            "insert": "\nAmendment I"
+        },
+        {
+            "attributes": {
+                "align": "center",
+                "header": 2
+            },
+            "insert": "\n"
+        },
+        {
+            "attributes": {
+                "align": "center"
+            },
+            "insert": "\n"
+        },
+        {
+            "insert": "Section I"
+        },
+        {
+            "attributes": {
+                "header": 3
+            },
+            "insert": "\n"
+        },
+        {
+            "insert": "During the proceedings of a trial, participants within that trial are to be restricted access to public channels pertaining directly to that trial’s proceedings, including but not limited to #peanut-gallery until the decision regarding the trial has been made.\n\n"
+        },
+        {
+            "attributes": {
+                "background": "transparent"
+            },
+            "insert": "Section II"
+        },
+        {
+            "attributes": {
+                "header": 3
+            },
+            "insert": "\n"
+        },
+        {
+            "attributes": {
+                "background": "transparent"
+            },
+            "insert": "During the proceedings of a trial, the defendant, prosecution, and the representation of each are to refrain from discussing the trial in private or in public during the trial proceedings aside from designated channels such as the courtroom or #trial-deliberation, and Senators are not to discuss the trial in channels aside from those designated channels until their final vote has been cast."
+        },
+        {
+            "insert": "\n\n"
+        },
+        {
+            "attributes": {
+                "background": "transparent"
+            },
+            "insert": "Section III"
+        },
+        {
+            "attributes": {
+                "header": 3
+            },
+            "insert": "\n"
+        },
+        {
+            "attributes": {
+                "background": "transparent"
+            },
+            "insert": "At the start of trial proceedings, after a Senator has been assigned to the case and before opening statements, the prosecution is to declare any witnesses they wish to bring to the trial with a short explanation as to why each witness is necessary, followed by the defense doing the same. After all witnesses have been declared, the Senator overseeing the trial is to accept or deny each of these witnesses based on the merit of their importance to the trial’s outcome."
+        },
+        {
+            "insert": "\n\n"
+        },
+        {
+            "attributes": {
+                "background": "transparent"
+            },
+            "insert": "Section IV"
+        },
+        {
+            "attributes": {
+                "header": 3
+            },
+            "insert": "\n"
+        },
+        {
+            "attributes": {
+                "background": "transparent"
+            },
+            "insert": "In the event that the Speaker of the Senate must recuse themselves from trial proceedings due to a conflict of interest, they shall appoint a Senator to act on their behalf for the purposes of that trial. This appointment must be approved by a simple majority vote of the members of the Senate who have not been recused from the trial."
+        },
+        {
+            "insert": "\n\n"
+        },
+        {
+            "attributes": {
+                "background": "transparent"
+            },
+            "insert": "Section V"
+        },
+        {
+            "attributes": {
+                "header": 3
+            },
+            "insert": "\n"
+        },
+        {
+            "attributes": {
+                "background": "transparent"
+            },
+            "insert": "In the event that all Senators must recuse themselves from a trial due to conflict of interest, an individual from outside the Senate must be selected to act as the judge for the trial, organizing trial proceedings, determining guilt and liability as applicable, and determining punishments for any crimes for which the defendant is found guilty or any damages for which the defendant is found liable."
+        },
+        {
+            "insert": "\n\n"
+        },
+        {
+            "attributes": {
+                "background": "transparent"
+            },
+            "insert": "When this circumstance occurs, individuals will be contacted based on their position in the government of Icenia. When an individual is contacted, they must declare if they have a conflict of interest in the trial. If the individual has a conflict of interest, the next individual in the list is contacted. If no members of the list are able to act without conflict of interest, the Senate will proceed with the trial, ignoring recusal of Senate members from the trial. The list of individuals, in order of contact is as follows:"
+        },
+        {
+            "insert": "\n"
+        },
+        {
+            "attributes": {
+                "background": "transparent"
+            },
+            "insert": "Secretary of the Interior"
+        },
+        {
+            "attributes": {
+                "list": "ordered"
+            },
+            "insert": "\n"
+        },
+        {
+            "attributes": {
+                "background": "transparent"
+            },
+            "insert": "Secretary of the Defense"
+        },
+        {
+            "attributes": {
+                "list": "ordered"
+            },
+            "insert": "\n"
+        },
+        {
+            "attributes": {
+                "background": "transparent"
+            },
+            "insert": "President of Icenia"
+        },
+        {
+            "attributes": {
+                "list": "ordered"
+            },
+            "insert": "\n"
+        },
+        {
+            "insert": "\n"
+        },
+        {
+            "attributes": {
+                "background": "transparent"
+            },
+            "insert": "Section VI"
+        },
+        {
+            "attributes": {
+                "header": 3
+            },
+            "insert": "\n"
+        },
+        {
+            "attributes": {
+                "background": "transparent"
+            },
+            "insert": "Constitutional and Judicial precedent in Icenia may be used in trials for crimes which occurred prior to the decision being made or prior to Icenian occupation of the territory where the crime occurred only when those crimes directly and intentionally caused harm to another individual protected under pre-existing Icenian law."
+        },
+        {
+            "insert": "\n\n"
+        },
+        {
+            "attributes": {
+                "background": "transparent"
+            },
+            "insert": "Section VII"
+        },
+        {
+            "attributes": {
+                "header": 3
+            },
+            "insert": "\n"
+        },
+        {
+            "attributes": {
+                "background": "transparent"
+            },
+            "insert": "When reparations are required of a party to another party based on the decision of the Icenian Judicial System, those reparations must come from the party who has been told to surrender reparations, rather than any other party. For the duration of a trial and until any and all assigned reparations are paid in full, the defending party is not to receive payment of any kind from any party beyond that which was pre-arranged in a deal made before the trial began. If a party violates this requirement, any wealth paid to the awarded party is to be assumed to be derived from that payment, and the party which has been assigned reparations must pay the reparations assigned in addition to what has already been surrendered to the awarded party."
+        },
+        {
+            "insert": "\n\n"
         }
     ]
 }
