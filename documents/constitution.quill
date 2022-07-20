@@ -1626,6 +1626,121 @@ order: -1000
             "insert": "When reparations are required of a party to another party based on the decision of the Icenian Judicial System, those reparations must come from the party who has been told to surrender reparations, rather than any other party. For the duration of a trial and until any and all assigned reparations are paid in full, the defending party is not to receive payment of any kind from any party beyond that which was pre-arranged in a deal made before the trial began. If a party violates this requirement, any wealth paid to the awarded party is to be assumed to be derived from that payment, and the party which has been assigned reparations must pay the reparations assigned in addition to what has already been surrendered to the awarded party."
         },
         {
+            "insert": "\n\nAmendment II"
+        },
+        {
+            "attributes": {
+                "align": "center",
+                "header": 2
+            },
+            "insert": "\n"
+        },
+        {
+            "attributes": {
+                "align": "center"
+            },
+            "insert": "\n"
+        },
+        {
+            "attributes": {
+                "background": "transparent"
+            },
+            "insert": "Section I"
+        },
+        {
+            "attributes": {
+                "header": 3
+            },
+            "insert": "\n"
+        },
+        {
+            "attributes": {
+                "background": "transparent"
+            },
+            "insert": "A) In violations of state law within the jurisdiction of that state as defined by agreement of land claims between Icenia and that state, the state reserves the right to hold trials for violations of the laws of that state, with trial proceedings and verdicts for such trials being at the discretion of that state."
+        },
+        {
+            "insert": "\n\n"
+        },
+        {
+            "attributes": {
+                "background": "transparent"
+            },
+            "insert": "Section II"
+        },
+        {
+            "attributes": {
+                "header": 3
+            },
+            "insert": "\n"
+        },
+        {
+            "attributes": {
+                "background": "transparent"
+            },
+            "insert": "A) In trials held within the state, that state is disallowed from enforcing pearling, but may require that reparations or barring from that states’ territory is allowed, provided it does not interfere with the security of Icenia. Verdicts made by a state are to be enforced by that state through whatever means they are capable of, excluding pearling, which may only be invoked by Icenia as a whole. "
+        },
+        {
+            "insert": "\n\n"
+        },
+        {
+            "attributes": {
+                "background": "transparent"
+            },
+            "insert": "B) Any sentencing performed by a state may only be enforced within that state’s borders, and enforcement within Icenia at large must be directly approved by petitioning the Senate for a vote."
+        },
+        {
+            "insert": "\n\n"
+        },
+        {
+            "attributes": {
+                "background": "transparent"
+            },
+            "insert": "Section III"
+        },
+        {
+            "attributes": {
+                "header": 3
+            },
+            "insert": "\n"
+        },
+        {
+            "attributes": {
+                "background": "transparent"
+            },
+            "insert": "A) In the case of a verdict which the defendant feels is incorrect, they may attempt to bring the trial to the national level by request in the #trial-requests channel of the main Icenia discord server. Such a trial must be confirmed to have been completed at the state level and accepted by the Speaker of the Senate to be heard, and otherwise follows typical proceedings."
+        },
+        {
+            "insert": "\n\n"
+        },
+        {
+            "attributes": {
+                "background": "transparent"
+            },
+            "insert": "B) This trial is to be held based on state laws of the state which initially held a trial, and may include such verdicts as pearling the defendant of the original trial, requiring additional reparations, requiring less reparations than initially sentenced, and otherwise overturning the decision of a state-level court, as the trial has been brought to the national level, if it is deemed a fair outcome for the original crime which prompted the trial. "
+        },
+        {
+            "insert": "\n\n"
+        },
+        {
+            "attributes": {
+                "background": "transparent"
+            },
+            "insert": "Section IV"
+        },
+        {
+            "attributes": {
+                "header": 3
+            },
+            "insert": "\n"
+        },
+        {
+            "attributes": {
+                "background": "transparent"
+            },
+            "insert": "A) In no way may this amendment nor other sections of The Constitution of the Third Republic of Icenia and its amendments be construed as reducing nor used to restrict the rights of States as defined in The Constitution of the Third Republic of Icenia and its past and future amendments."
+        },
+        {
             "insert": "\n\n"
         }
     ]
