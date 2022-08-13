@@ -1741,7 +1741,44 @@ order: -1000
             "insert": "A) In no way may this amendment nor other sections of The Constitution of the Third Republic of Icenia and its amendments be construed as reducing nor used to restrict the rights of States as defined in The Constitution of the Third Republic of Icenia and its past and future amendments."
         },
         {
-            "insert": "\n\n"
+            "insert": "\n\nAmendment III"
+        },
+        {
+            "attributes": {
+                "align": "center",
+                "header": 2
+            },
+            "insert": "\n"
+        },
+        {
+            "insert": "\nThis amendment aims to establish a more independent Judicial Branch of the Icenian Government.\n\nSection I: The Supreme Court"
+        },
+        {
+            "attributes": {
+                "header": 3
+            },
+            "insert": "\n"
+        },
+        {
+            "insert": "The Court as defined by Article V shall become the Supreme Court, which going forward shall solely handle appeals from the Magistrates’ Court and from State courts, or any other special case with extenuating circumstances.\n\nSection II: The Magistrates' Court"
+        },
+        {
+            "attributes": {
+                "header": 3
+            },
+            "insert": "\n"
+        },
+        {
+            "insert": "The Magistrates’ Court shall be established to handle applications for remedy of grievances as described by Paragraph 1 of Article V (a). Each case before the Court shall be presided over and decided by an individual Magistrates’ Judge from the Magistrates’ Bench. The Bench shall consist of at least two Icenians whose citizenship status is “Citizen” or higher, appointed by the Senate after each Senate General Election.\n\nSection III: Application of Procedures"
+        },
+        {
+            "attributes": {
+                "header": 3
+            },
+            "insert": "\n"
+        },
+        {
+            "insert": "The procedures defined in Article V and Amendment 1 are to apply to the Magistrates’ Court, reinterpreting the roles for their relevant counterparts as applicable, unless defined otherwise, or until a separate case procedure law is passed.\n"
         }
     ]
 }
