@@ -5,7 +5,7 @@ order: -1000
 {
     "ops": [
         {
-            "insert": "The Constitution of the Third Republic of Icenia"
+            "insert": "The Constitution of the Third Republic of Icenia"
         },
         {
             "attributes": {
@@ -50,7 +50,7 @@ order: -1000
             "insert": "\n"
         },
         {
-            "insert": "The Citizens of the Third Republic of Icenia establish this Constitution as a basis to preserve and extend our culture, history, laws, and community. It is the design of the framers of this Constitution to provide the Citizens of Icenia opportunity and protection so that they may prosper and grow as players. Within Icenia’s "
+            "insert": "The Citizens of the Third Republic of Icenia establish this Constitution as a basis to preserve and extend our culture, history, laws, and community. It is the design of the framers of this Constitution to provide the Citizens of Icenia opportunity and protection so that they may prosper and grow as players. Within Icenia’s "
         },
         {
             "attributes": {
@@ -84,7 +84,7 @@ order: -1000
             "insert": "Rights:"
         },
         {
-            "insert": " "
+            "insert": " "
         },
         {
             "attributes": {
@@ -93,7 +93,7 @@ order: -1000
             "insert": "Property"
         },
         {
-            "insert": " ownership. Access to the public factory building.\n"
+            "insert": " ownership. Access to the public factory building.\n"
         },
         {
             "attributes": {
@@ -102,7 +102,7 @@ order: -1000
             "insert": "Requirements:"
         },
         {
-            "insert": " Must own and maintain land in Icenia. Players are ineligible for residency if they have been found guilty of treason, are currently exiled from Icenia, are considered persona-non-grata, or are attached to a nation that Icenia is currently at war with or has embargoed. The Speaker of the Senate, President, or the Secretary of Defense may also bar anyone from residency.\n\n(b) Citizen"
+            "insert": " Must own and maintain land in Icenia. Players are ineligible for residency if they have been found guilty of treason, are currently exiled from Icenia, are considered persona-non-grata, or are attached to a nation that Icenia is currently at war with or has embargoed. The Speaker of the Senate, President, or the Secretary of Defense may also bar anyone from residency.\n\n(b) Citizen"
         },
         {
             "attributes": {
@@ -114,19 +114,19 @@ order: -1000
             "attributes": {
                 "bold": true
             },
-            "insert": "Rights: "
+            "insert": "Rights: "
         },
         {
-            "insert": "Eligible to vote in elections. Eligible to serve in the armed forces. Access to the national farms. Eligible to own a small bunker (the bunker must be approved by the Secretary of the Interior prior to construction).\n"
+            "insert": "Eligible to vote in elections. Eligible to serve in the armed forces. Access to the national farms. Eligible to own a small bunker (the bunker must be approved by the Secretary of the Interior prior to construction).\n"
         },
         {
             "attributes": {
                 "bold": true
             },
-            "insert": "Requirements: "
+            "insert": "Requirements: "
         },
         {
-            "insert": "Must hold the Resident title. Must have completed a "
+            "insert": "Must hold the Resident title. Must have completed a "
         },
         {
             "attributes": {
@@ -135,7 +135,7 @@ order: -1000
             "insert": "small public works project"
         },
         {
-            "insert": ". The Speaker of the Senate, President or the Secretary of Defense may also bar anyone from citizenship.\n\n(c) Patrician"
+            "insert": ". The Speaker of the Senate, President or the Secretary of Defense may also bar anyone from citizenship.\n\n(c) Patrician"
         },
         {
             "attributes": {
@@ -147,19 +147,19 @@ order: -1000
             "attributes": {
                 "bold": true
             },
-            "insert": "Rights: "
+            "insert": "Rights: "
         },
         {
-            "insert": "Eligible to run in elections. Eligible to own a medium sized bunker (the bunker must be approved by the Secretary of the Interior prior to construction).\n"
+            "insert": "Eligible to run in elections. Eligible to own a medium sized bunker (the bunker must be approved by the Secretary of the Interior prior to construction).\n"
         },
         {
             "attributes": {
                 "bold": true
             },
-            "insert": "Requirements: "
+            "insert": "Requirements: "
         },
         {
-            "insert": "Must hold the Citizen title. Must have completed a "
+            "insert": "Must hold the Citizen title. Must have completed a "
         },
         {
             "attributes": {
@@ -180,19 +180,19 @@ order: -1000
             "attributes": {
                 "bold": true
             },
-            "insert": "Rights: "
+            "insert": "Rights: "
         },
         {
-            "insert": "Eligible to own a large bunker or skybunker (the bunker must be approved by the Secretary of the Interior prior to construction).\n"
+            "insert": "Eligible to own a large bunker or skybunker (the bunker must be approved by the Secretary of the Interior prior to construction).\n"
         },
         {
             "attributes": {
                 "bold": true
             },
-            "insert": "Requirements: "
+            "insert": "Requirements: "
         },
         {
-            "insert": "Must hold the Patrician title. Must have completed a "
+            "insert": "Must hold the Patrician title. Must have completed a "
         },
         {
             "attributes": {
@@ -201,7 +201,7 @@ order: -1000
             "insert": "large public works project"
         },
         {
-            "insert": ". Must have served as either a Senator or Secretary for at least one term.\n\n(e) Consul"
+            "insert": ". Must have served as either a Senator or Secretary for at least one term.\n\n(e) Consul"
         },
         {
             "attributes": {
@@ -213,19 +213,19 @@ order: -1000
             "attributes": {
                 "bold": true
             },
-            "insert": "Rights: "
+            "insert": "Rights: "
         },
         {
-            "insert": "Eligible to own a private vault within Icenia (location must be approved by the Secretary of Defense, Secretary of the Interior, and President. Permitted to hold a non-voting seat in the Senate.\n"
+            "insert": "Eligible to own a private vault within Icenia (location must be approved by the Secretary of Defense, Secretary of the Interior, and President. Permitted to hold a non-voting seat in the Senate.\n"
         },
         {
             "attributes": {
                 "bold": true
             },
-            "insert": "Requirements: "
+            "insert": "Requirements: "
         },
         {
-            "insert": "Must hold the title of Equestrian. Must complete a second "
+            "insert": "Must hold the title of Equestrian. Must complete a second "
         },
         {
             "attributes": {
@@ -234,7 +234,7 @@ order: -1000
             "insert": "large public works project"
         },
         {
-            "insert": ". Must receive a 2/3 majority confirmation vote from the Senate. Must be approved by the President and the Secretary of Defense. Must have served as either a Senator or Secretary for at least three terms. Must renounce all foreign citizenships or attachments.\n\n(f) Princeps"
+            "insert": ". Must receive a 2/3 majority confirmation vote from the Senate. Must be approved by the President and the Secretary of Defense. Must have served as either a Senator or Secretary for at least three terms. Must renounce all foreign citizenships or attachments.\n\n(f) Princeps"
         },
         {
             "attributes": {
@@ -246,7 +246,7 @@ order: -1000
             "attributes": {
                 "bold": true
             },
-            "insert": "Rights: "
+            "insert": "Rights: "
         },
         {
             "insert": "Holds the title of President and all associated powers.\n"
@@ -255,7 +255,7 @@ order: -1000
             "attributes": {
                 "bold": true
             },
-            "insert": "Requirements: "
+            "insert": "Requirements: "
         },
         {
             "insert": "Must be ChrisChrispie.\n\nIII. Bill of Rights"
@@ -323,7 +323,7 @@ order: -1000
             "insert": "\n"
         },
         {
-            "insert": "Upon the ratification of this constitution, an election will be immediately held and the President shall appoint the two Secretary Positions. This government will serve the People of Icenia until either the end of the server, a new constitution is ratified, or the active population drops below six players of Citizen rank or higher. Should the population drop to these levels, this constitution may be disregarded until such a time as the population has recovered.\n \n(a) The Senate"
+            "insert": "Upon the ratification of this constitution, an election will be immediately held and the President shall appoint the two Secretary Positions. This government will serve the People of Icenia until either the end of the server, a new constitution is ratified, or the active population drops below six players of Citizen rank or higher. Should the population drop to these levels, this constitution may be disregarded until such a time as the population has recovered.\n \n(a) The Senate"
         },
         {
             "attributes": {
@@ -338,10 +338,10 @@ order: -1000
             "attributes": {
                 "bold": true
             },
-            "insert": "Senators: "
+            "insert": "Senators: "
         },
         {
-            "insert": "Senators will serve a month-long term which will begin on the first of the month and end on the last day of the month. Senators may be removed from their position via impeachment by a unanimous vote between the Speaker of the Senate, President, and Minister of Defense.\n\nSenators will be permitted to do the following actions:\nPropose a bill, action, treaty, or amendment: A bill is an alteration, creation, or deletion of a law which must be recorded in the Icenian Code of Laws. An "
+            "insert": "Senators will serve a month-long term which will begin on the first of the month and end on the last day of the month. Senators may be removed from their position via impeachment by a unanimous vote between the Speaker of the Senate, President, and Minister of Defense.\n\nSenators will be permitted to do the following actions:\nPropose a bill, action, treaty, or amendment: A bill is an alteration, creation, or deletion of a law which must be recorded in the Icenian Code of Laws. An "
         },
         {
             "attributes": {
@@ -350,7 +350,7 @@ order: -1000
             "insert": "amendment"
         },
         {
-            "insert": " is a change to the constitution. An action is something that the State of Icenia must attempt to do. An example of an action would be declaring war. A treaty would be an agreement between Icenia and a foreign power or powers."
+            "insert": " is a change to the constitution. An action is something that the State of Icenia must attempt to do. An example of an action would be declaring war. A treaty would be an agreement between Icenia and a foreign power or powers."
         },
         {
             "attributes": {
@@ -368,7 +368,7 @@ order: -1000
             "insert": "\n"
         },
         {
-            "insert": "Serve on a jury: In all civil or criminal cases (with the exception of a military tribunal), each Senator may act as a Juror and cast a single vote to determine if the defendant is guilty or innocent."
+            "insert": "Serve on a jury: In all civil or criminal cases (with the exception of a military tribunal), each Senator may act as a Juror and cast a single vote to determine if the defendant is guilty or innocent."
         },
         {
             "attributes": {
@@ -386,7 +386,7 @@ order: -1000
             "insert": "\n"
         },
         {
-            "insert": "Assist the Secretary of Defense and Secretary of the Interior with citizenship applications or promotions."
+            "insert": "Assist the Secretary of Defense and Secretary of the Interior with citizenship applications or promotions."
         },
         {
             "attributes": {
@@ -401,7 +401,7 @@ order: -1000
             "attributes": {
                 "bold": true
             },
-            "insert": "Speaker of the Senate: "
+            "insert": "Speaker of the Senate: "
         },
         {
             "insert": "The Speaker of the Senate will be chosen from the pool of sitting Senators every month by a majority vote of the Senators and must be confirmed by the President. The Speaker of the Senate may be impeached by a 2/3 majority vote in the Senate.\n\nThe Speaker of the Senate will be responsible for the following items:\nAct as a head of state in conjunction with the President"
@@ -476,7 +476,7 @@ order: -1000
             "insert": "\n"
         },
         {
-            "insert": "\n(b) Secretary Positions"
+            "insert": "\n(b) Secretary Positions"
         },
         {
             "attributes": {
@@ -491,7 +491,7 @@ order: -1000
             "attributes": {
                 "bold": true
             },
-            "insert": "Secretary of Defense: "
+            "insert": "Secretary of Defense: "
         },
         {
             "insert": "The Secretary of Defense will be appointed by the President and will serve until resignation or impeachment by the President. The Secretary of Defense will maintain a non-voting position in the Senate.\n\nThe Secretary of Defense will be responsible for:\nThe recruitment and training of armies"
@@ -548,7 +548,7 @@ order: -1000
             "insert": "\n"
         },
         {
-            "insert": "The accumulation of munitions and military hardware"
+            "insert": "The accumulation of munitions and military hardware"
         },
         {
             "attributes": {
@@ -581,7 +581,7 @@ order: -1000
             "attributes": {
                 "bold": true
             },
-            "insert": "Secretary of the Interior: "
+            "insert": "Secretary of the Interior: "
         },
         {
             "insert": "The Secretary of the Interior will be elected by the Senate and will serve for a two month term. The Secretary of the Interior will maintain a non-voting position in the Senate. The Secretary of the Interior can be impeached by the President or by the Senate with a 2/3 majority vote. If the Senate impeaches the Secretary of the Interior, the Senate must elect a different candidate within 48 hours.\n\nThe Secretary of the Interior will be responsible for:\nApproving new developments within the city"
@@ -665,7 +665,7 @@ order: -1000
             "insert": "\n"
         },
         {
-            "insert": "The office of the President will act as the final check in the legislative, administrative, and judiciary branches of Icenia and be held by ChrisChrispie until he is either impeached, resigns, goes inactive for three or more months, or dies in real life. If any of these happen, the Secretary of Defense will become President. The Senate can choose to impeach the President via a unanimous vote.\n\nThe President is responsible for:\nActing as the Head of State in conjunction with the Speaker of the Senate"
+            "insert": "The office of the President will act as the final check in the legislative, administrative, and judiciary branches of Icenia and be held by ChrisChrispie until he is either impeached, resigns, goes inactive for three or more months, or dies in real life. If any of these happen, the Secretary of Defense will become President. The Senate can choose to impeach the President via a unanimous vote.\n\nThe President is responsible for:\nActing as the Head of State in conjunction with the Speaker of the Senate"
         },
         {
             "attributes": {
@@ -734,7 +734,7 @@ order: -1000
             "attributes": {
                 "bold": true
             },
-            "insert": "Voting: "
+            "insert": "Voting: "
         },
         {
             "insert": "Senate positions will be awarded via majority vote. Each citizen may cast one ballot for each Senate position being filled; if the Senate is composed of five Senators each citizen may vote for up to five different candidates. Citizens may not vote for the same candidate twice. The President will certify the election and will fill the Senate with the candidates who received the most votes.\n\nPlayers holding the Citizen, Patrician, Equestrian, Consul, or Princeps titles will be eligible to vote in first round Senatorial elections.\n\nV. Judiciary System"
@@ -747,7 +747,7 @@ order: -1000
             "insert": "\n"
         },
         {
-            "insert": "The Icenian Courts will be overseen by the Senate. Trials should be completed in a reasonable amount of time and be conducted in a fair and organized manner. The Icenian legal code should strive to be simple and direct; the spirit of the law should take precedence over the exact letter of the law. Pearls that are to be tried under Icenian law must be transferred to government control as soon as possible.\n\n(a) Pre-Trial Proceedings"
+            "insert": "The Icenian Courts will be overseen by the Senate. Trials should be completed in a reasonable amount of time and be conducted in a fair and organized manner. The Icenian legal code should strive to be simple and direct; the spirit of the law should take precedence over the exact letter of the law. Pearls that are to be tried under Icenian law must be transferred to government control as soon as possible.\n\n(a) Pre-Trial Proceedings"
         },
         {
             "attributes": {
@@ -756,7 +756,7 @@ order: -1000
             "insert": "\n"
         },
         {
-            "insert": "To bring a grievance to trial, the prosecution must post a trial request in the #trial-requests channel in the Icenia Discord clearly stating which person(s) or entity they are suing and which law(s) they feel have been broken. If the prosecution has been banned from the Icenia Discord they must find a legal representative that is not banned to represent them.\n\nOnce the trial request has been posted, the Speaker of the Senate must choose to either dismiss the case or allow it to go to trial. Once the Speaker makes their decision, they must notify the prosecution and the defendant by responding in the #trial-requests channel and pinging both parties. If the decision was to move forward with the trial, the court proceedings must begin.\n\nAt the start of a trial, the Speaker of the Senate must assign an impartial Senator to oversee the proceedings. Additionally, if any Senators are involved with either the prosecution or the defense they must recuse themselves. The Senator overseeing the proceeding should maintain order in the court and ensure that procedure is followed. Additionally, If either the defense or the prosecution wish to do a trial via voice chat they must notify the Court so that arrangements can be made.\n"
+            "insert": "To bring a grievance to trial, the prosecution must post a trial request in the #trial-requests channel in the Icenia Discord clearly stating which person(s) or entity they are suing and which law(s) they feel have been broken. If the prosecution has been banned from the Icenia Discord they must find a legal representative that is not banned to represent them.\n\nOnce the trial request has been posted, the Speaker of the Senate must choose to either dismiss the case or allow it to go to trial. Once the Speaker makes their decision, they must notify the prosecution and the defendant by responding in the #trial-requests channel and pinging both parties. If the decision was to move forward with the trial, the court proceedings must begin.\n\nAt the start of a trial, the Speaker of the Senate must assign an impartial Senator to oversee the proceedings. Additionally, if any Senators are involved with either the prosecution or the defense they must recuse themselves. The Senator overseeing the proceeding should maintain order in the court and ensure that procedure is followed. Additionally, If either the defense or the prosecution wish to do a trial via voice chat they must notify the Court so that arrangements can be made.\n"
         },
         {
             "attributes": {
@@ -765,7 +765,7 @@ order: -1000
             "insert": "\n"
         },
         {
-            "insert": "(b) Trial Proceedings"
+            "insert": "(b) Trial Proceedings"
         },
         {
             "attributes": {
@@ -777,28 +777,28 @@ order: -1000
             "attributes": {
                 "bold": true
             },
-            "insert": "Opening Statements and Evidence: "
+            "insert": "Opening Statements and Evidence: "
         },
         {
-            "insert": "Once a Senator has been assigned to oversee the trials and any Senators with conflicts of interest have been recused, the prosecution may make their opening statement. The opening statement should list what crimes they believe have been committed, any accompanying evidence, and witness testimony.\n\nThe defense may then provide a counter statement which should include a rebuttal to any evidence or witness testimony the prosecution provided. The defense may then provide their own evidence or witness testimony.\n\n"
-        },
-        {
-            "attributes": {
-                "bold": true
-            },
-            "insert": "Cross Examination: "
-        },
-        {
-            "insert": "Next, a period of cross examination will begin. The prosecution may cross examine the defense’s witnesses and make counter arguments to any evidence or statements the defense has made.\n\nFollowing this, the defense will have an opportunity to cross examine the prosecution’s witnesses and make counter arguments to any evidence or statements the prosecution has made.\n\nIf any new evidence or witnesses are provided after the opening statement, the cross examination process must be restarted.\n\n"
+            "insert": "Once a Senator has been assigned to oversee the trials and any Senators with conflicts of interest have been recused, the prosecution may make their opening statement. The opening statement should list what crimes they believe have been committed, any accompanying evidence, and witness testimony.\n\nThe defense may then provide a counter statement which should include a rebuttal to any evidence or witness testimony the prosecution provided. The defense may then provide their own evidence or witness testimony.\n\n"
         },
         {
             "attributes": {
                 "bold": true
             },
-            "insert": "Closing Remarks, Verdict, and Sentencing: "
+            "insert": "Cross Examination: "
         },
         {
-            "insert": "Finally, the prosecution, then the defense will make closing remarks.\n\nOnce the closing remarks have been made, the Senate will enter deliberations. Once the Speaker feels that the trial has been sufficiently discussed they will call upon the Senate to vote either “guilty” or “not guilty” for each crime the prosecution listed. Once the Senate completes their vote or a 24-hour window has passed, the Speaker will post the result in the trial channel. All Senators who have been recused from the proceedings may not vote. Both the Speaker and the Senator overseeing the trial are eligible to vote.\n\nThe Speaker will then assign sentences for each crime the defendant has been convicted of and post the results in the trial channel. If the Speaker has been recused, then the President will assign the sentences and post the results.\n\n(c) Military Tribunal"
+            "insert": "Next, a period of cross examination will begin. The prosecution may cross examine the defense’s witnesses and make counter arguments to any evidence or statements the defense has made.\n\nFollowing this, the defense will have an opportunity to cross examine the prosecution’s witnesses and make counter arguments to any evidence or statements the prosecution has made.\n\nIf any new evidence or witnesses are provided after the opening statement, the cross examination process must be restarted.\n\n"
+        },
+        {
+            "attributes": {
+                "bold": true
+            },
+            "insert": "Closing Remarks, Verdict, and Sentencing: "
+        },
+        {
+            "insert": "Finally, the prosecution, then the defense will make closing remarks.\n\nOnce the closing remarks have been made, the Senate will enter deliberations. Once the Speaker feels that the trial has been sufficiently discussed they will call upon the Senate to vote either “guilty” or “not guilty” for each crime the prosecution listed. Once the Senate completes their vote or a 24-hour window has passed, the Speaker will post the result in the trial channel. All Senators who have been recused from the proceedings may not vote. Both the Speaker and the Senator overseeing the trial are eligible to vote.\n\nThe Speaker will then assign sentences for each crime the defendant has been convicted of and post the results in the trial channel. If the Speaker has been recused, then the President will assign the sentences and post the results.\n\n(c) Military Tribunal"
         },
         {
             "attributes": {
@@ -872,7 +872,7 @@ order: -1000
             "insert": "\n"
         },
         {
-            "insert": "\nProperty can not be modified, removed, or destroyed by anyone but the owner of the name layer group or item unless consent has been given or the procedures in "
+            "insert": "\nProperty can not be modified, removed, or destroyed by anyone but the owner of the name layer group or item unless consent has been given or the procedures in "
         },
         {
             "attributes": {
@@ -881,7 +881,7 @@ order: -1000
             "insert": "Forfeiture of Property"
         },
         {
-            "insert": " have been followed.\n\n(b) Forfeiture of Property "
+            "insert": " have been followed.\n\n(b) Forfeiture of Property "
         },
         {
             "attributes": {
@@ -896,7 +896,7 @@ order: -1000
             "attributes": {
                 "bold": true
             },
-            "insert": "Dereliction: "
+            "insert": "Dereliction: "
         },
         {
             "insert": "Property may be derelicted if the property owner has not logged in for two weeks, or has voluntarily left the Icenian Discord for more than one week, and has not been granted an exception by the President. To begin a dereliction, the following steps must be completed:\nA citizen must place a sign in clear view on the property with the following information: “Dereliction notice”, the current date, and the discord handle of the citizen performing the dereliction."
@@ -950,7 +950,7 @@ order: -1000
             "attributes": {
                 "bold": true
             },
-            "insert": "Seizure of assets: "
+            "insert": "Seizure of assets: "
         },
         {
             "insert": "If a citizen is found guilty of treason the federal government will immediately take possession of all of the convict's property. If a Resident belongs to a nation which Icenia declares war against, the federal government may exercise the option to seize all of said resident’s property within Icenia.\n\n"
@@ -959,7 +959,7 @@ order: -1000
             "attributes": {
                 "bold": true
             },
-            "insert": "Eminent Domain: "
+            "insert": "Eminent Domain: "
         },
         {
             "insert": "The Secretary of the Interior may petition the Senate to utilize eminent domain to secure land owned by a private citizen or resident. The eminent domain request requires a ⅔ majority vote from the Senate to pass. Once it does, the federal government must provide reasonable time for the former property owner to collect their items and move. Additionally, the federal government must provide compensation for the land.\n\nVIII. States Within Icenia"
@@ -972,7 +972,7 @@ order: -1000
             "insert": "\n"
         },
         {
-            "insert": "States will act as administrative sub-territories allowing for unique towns and cultures to exist within Icenia while maintaining a unified national identity and government.\n\n(a) States Rights"
+            "insert": "States will act as administrative sub-territories allowing for unique towns and cultures to exist within Icenia while maintaining a unified national identity and government.\n\n(a) States Rights"
         },
         {
             "attributes": {
@@ -1162,7 +1162,7 @@ order: -1000
             "insert": "\n"
         },
         {
-            "insert": "This Constitution can be amended via the standard Senatorial bill proposition and voting procedure; however, instead of a simple majority, an amendment requires a ⅔ majority vote and Presidential approval. New amendments should be posted at the bottom of the Constitution for future reference.\n\nX. Ratification"
+            "insert": "This Constitution can be amended via the standard Senatorial bill proposition and voting procedure; however, instead of a simple majority, an amendment requires a ⅔ majority vote and Presidential approval. New amendments should be posted at the bottom of the Constitution for future reference.\n\nX. Ratification"
         },
         {
             "attributes": {
@@ -1172,7 +1172,7 @@ order: -1000
             "insert": "\n"
         },
         {
-            "insert": "This Constitution may be ratified with a ⅔ majority vote of the members of the Third Republic Planning Committee in the Icenian discord. The voting period will last 48 hours, once this period has elapsed, any player who has not voted will be counted as an abstention.\n\nUpon ratification, this Constitution will immediately go into effect and all signatories will receive the rank of patrician and ChrisChrispie shall receive the rank of "
+            "insert": "This Constitution may be ratified with a ⅔ majority vote of the members of the Third Republic Planning Committee in the Icenian discord. The voting period will last 48 hours, once this period has elapsed, any player who has not voted will be counted as an abstention.\n\nUpon ratification, this Constitution will immediately go into effect and all signatories will receive the rank of patrician and ChrisChrispie shall receive the rank of "
         },
         {
             "attributes": {
@@ -1220,7 +1220,7 @@ order: -1000
             "insert": "\n"
         },
         {
-            "insert": "A public works project is a form of civil service that enhances the State and the People of Icenia, aims to improve community interaction, develops national infrastructure and provides opportunities for citizens to gain experience in various aspects of CivCraft and nation building. These projects vary in size and can be assigned by any government member. While there is no hard definition for what constitutes a small, medium or large project, Senators and Secretaries assigning these projects should attempt to follow precedent and work together to keep the projects similar in scope and effort. Additionally, citizens desiring advancement should develop their own projects and propose them to a member of the government. When there is disagreement about the size of a project, the Senate may vote to approve or reject the project. Projects completed for States within Icenia shall count towards Public Works Projects. A non-exhaustive list of possible options for each size of public work projects is available below:\n\n(a) Small Project"
+            "insert": "A public works project is a form of civil service that enhances the State and the People of Icenia, aims to improve community interaction, develops national infrastructure and provides opportunities for citizens to gain experience in various aspects of CivCraft and nation building. These projects vary in size and can be assigned by any government member. While there is no hard definition for what constitutes a small, medium or large project, Senators and Secretaries assigning these projects should attempt to follow precedent and work together to keep the projects similar in scope and effort. Additionally, citizens desiring advancement should develop their own projects and propose them to a member of the government. When there is disagreement about the size of a project, the Senate may vote to approve or reject the project. Projects completed for States within Icenia shall count towards Public Works Projects. A non-exhaustive list of possible options for each size of public work projects is available below:\n\n(a) Small Project"
         },
         {
             "attributes": {
@@ -1247,7 +1247,7 @@ order: -1000
             "insert": "\n"
         },
         {
-            "insert": "Assisting in the construction of a rail line or iceroad"
+            "insert": "Assisting in the construction of a rail line or iceroad"
         },
         {
             "attributes": {
@@ -1292,7 +1292,7 @@ order: -1000
             "insert": "\n"
         },
         {
-            "insert": "\n(b) Medium Project"
+            "insert": "\n(b) Medium Project"
         },
         {
             "attributes": {
@@ -1310,7 +1310,7 @@ order: -1000
             "insert": "\n"
         },
         {
-            "insert": "Constructing a rail line or iceroad"
+            "insert": "Constructing a rail line or iceroad"
         },
         {
             "attributes": {
@@ -1337,7 +1337,7 @@ order: -1000
             "insert": "\n"
         },
         {
-            "insert": "Constructing an auto brewer for a military site"
+            "insert": "Constructing an auto brewer for a military site"
         },
         {
             "attributes": {
@@ -1409,7 +1409,7 @@ order: -1000
             "insert": "\n"
         },
         {
-            "insert": "Plan and build a major iceroad, trap, or bunker network"
+            "insert": "Plan and build a major iceroad, trap, or bunker network"
         },
         {
             "attributes": {
@@ -1678,7 +1678,7 @@ order: -1000
             "attributes": {
                 "background": "transparent"
             },
-            "insert": "A) In trials held within the state, that state is disallowed from enforcing pearling, but may require that reparations or barring from that states’ territory is allowed, provided it does not interfere with the security of Icenia. Verdicts made by a state are to be enforced by that state through whatever means they are capable of, excluding pearling, which may only be invoked by Icenia as a whole. "
+            "insert": "A) In trials held within the state, that state is disallowed from enforcing pearling, but may require that reparations or barring from that states’ territory is allowed, provided it does not interfere with the security of Icenia. Verdicts made by a state are to be enforced by that state through whatever means they are capable of, excluding pearling, which may only be invoked by Icenia as a whole. "
         },
         {
             "insert": "\n\n"
@@ -1717,7 +1717,7 @@ order: -1000
             "attributes": {
                 "background": "transparent"
             },
-            "insert": "B) This trial is to be held based on state laws of the state which initially held a trial, and may include such verdicts as pearling the defendant of the original trial, requiring additional reparations, requiring less reparations than initially sentenced, and otherwise overturning the decision of a state-level court, as the trial has been brought to the national level, if it is deemed a fair outcome for the original crime which prompted the trial. "
+            "insert": "B) This trial is to be held based on state laws of the state which initially held a trial, and may include such verdicts as pearling the defendant of the original trial, requiring additional reparations, requiring less reparations than initially sentenced, and otherwise overturning the decision of a state-level court, as the trial has been brought to the national level, if it is deemed a fair outcome for the original crime which prompted the trial. "
         },
         {
             "insert": "\n\n"
@@ -1778,7 +1778,155 @@ order: -1000
             "insert": "\n"
         },
         {
-            "insert": "The procedures defined in Article V and Amendment 1 are to apply to the Magistrates’ Court, reinterpreting the roles for their relevant counterparts as applicable, unless defined otherwise, or until a separate case procedure law is passed.\n"
+            "insert": "The procedures defined in Article V and Amendment 1 are to apply to the Magistrates’ Court, reinterpreting the roles for their relevant counterparts as applicable, unless defined otherwise, or until a separate case procedure law is passed.\n\nAmendment IV"
+        },
+        {
+            "attributes": {
+                "align": "center",
+                "header": 2
+            },
+            "insert": "\n"
+        },
+        {
+            "insert": "\n"
+        },
+        {
+            "attributes": {
+                "bold": true
+            },
+            "insert": "Icenian Identity and Security Amendment"
+        },
+        {
+            "insert": "\n\n"
+        },
+        {
+            "insert": "Section I: Identity "
+        },
+        {
+            "attributes": {
+                "header": 3
+            },
+            "insert": "\n"
+        },
+        {
+            "insert": "To acquire or maintain citizenship, an individual possessing the role of resident or higher within Icenia must disclose their in-game-name in a government-designated channel within 1 week of the passing of this bill or 1 week of approval, whichever is later. "
+        },
+        {
+            "attributes": {
+                "list": "ordered"
+            },
+            "insert": "\n"
+        },
+        {
+            "insert": "When an individual is approved for residency, they must disclose their in-game name, and this disclosure must be confirmed through any of the methods defined in Section II prior to any roles being conferred."
+        },
+        {
+            "attributes": {
+                "list": "ordered"
+            },
+            "insert": "\n"
+        },
+        {
+            "insert": "Failure to comply with all requirements laid out in this bill shall result in removal of all roles and associated rights until the individual complies with the requirements of this Amendment. "
+        },
+        {
+            "attributes": {
+                "list": "ordered"
+            },
+            "insert": "\n"
+        },
+        {
+            "insert": "If an individual has roles removed for failure to comply with this Amendment, they may regain their roles and all associated rights if they comply and the Secretary of Defense determines that they are not a threat to the Security of Icenia based on the information"
+        },
+        {
+            "attributes": {
+                "list": "ordered"
+            },
+            "insert": "\n"
+        },
+        {
+            "insert": "\n"
+        },
+        {
+            "insert": "Section II: Confirmation"
+        },
+        {
+            "attributes": {
+                "header": 3
+            },
+            "insert": "\n"
+        },
+        {
+            "insert": "Assertions of identity in-game made by any Discord account must be confirmed by one of the following ways before being assumed to be true:"
+        },
+        {
+            "attributes": {
+                "list": "ordered"
+            },
+            "insert": "\n"
+        },
+        {
+            "insert": "Upon the next log on of the in-game account being claimed to be possessed by the discord user where a member of government is active, they must confirm to that government member that the associated discord user is them. Due diligence for this on the part of the party to be verified requires that the government member acknowledge the assertion in chat or in Discord, with a lack of acknowledgement being assumed to mean they are inactive."
+        },
+        {
+            "attributes": {
+                "indent": 1,
+                "list": "ordered"
+            },
+            "insert": "\n"
+        },
+        {
+            "insert": "An existing and trusted Icenian citizen must confirm the in-game name of the individual. "
+        },
+        {
+            "attributes": {
+                "indent": 1,
+                "list": "ordered"
+            },
+            "insert": "\n"
+        },
+        {
+            "insert": "If the person being verified is determined later to not be the individual using the in-game account, or the verified person is found to be intentionally destructive towards Icenia, a trial is to be held for the sponsoring citizen to determine if there is any fault on their part, at the discretion of the individual presiding over the trial and the sentencing body of the trial."
+        },
+        {
+            "attributes": {
+                "indent": 2,
+                "list": "ordered"
+            },
+            "insert": "\n"
+        },
+        {
+            "insert": "\n"
+        },
+        {
+            "insert": "Section III: Citizenship"
+        },
+        {
+            "attributes": {
+                "header": 3
+            },
+            "insert": "\n"
+        },
+        {
+            "insert": "The Secretary of the Interior is to be responsible for conferring appropriate citizenship roles upon meeting these requirements, and removing appropriate citizenship roles for non-compliance, documenting the removed roles in the Department of the Interior for future reference as needed. "
+        },
+        {
+            "attributes": {
+                "list": "ordered"
+            },
+            "insert": "\n"
+        },
+        {
+            "insert": "Individuals other than the Secretary of the Interior are only to grant citizenship tiers with the approval of the Speaker of the Senate and the President of Icenia on the basis that the Secretary of the Interior has become inactive."
+        },
+        {
+            "attributes": {
+                "list": "ordered"
+            },
+            "insert": "\n"
+        },
+        {
+            "insert": "\n"
         }
     ]
 }
