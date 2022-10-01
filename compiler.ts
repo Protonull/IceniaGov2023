@@ -2,7 +2,7 @@ import * as fs from "https://deno.land/std@0.150.0/fs/mod.ts";
 import * as path from "https://deno.land/std@0.150.0/path/mod.ts";
 import glob from "https://esm.sh/glob@8.0.3/";
 import greymatter from "https://esm.sh/gray-matter@4.0.3";
-import puppeteer, { Page } from "https://deno.land/x/puppeteer@14.1.1/mod.ts";
+import puppeteer, { Page } from "https://deno.land/x/puppeteer@16.2.0/mod.ts";
 
 const CWD = Deno.cwd();
 const DOCUMENT_EXT = "quill";
