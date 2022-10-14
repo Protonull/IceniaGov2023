@@ -9,7 +9,7 @@ const DOCUMENT_EXT = "quill";
 const DOCUMENTS_FOLDER = path.join(CWD, "documents");
 const OUTPUT_FOLDER = path.join(CWD, "_site");
 const QUILL_VERSION = "1.3.6";
-const GH_PAGES_DOMAIN = "icenialaw.protonull.uk";
+const GH_PAGES_DOMAIN = "iceniagov.protonull.uk";
 
 // Clear our whatever's currently in the output folder
 await fs.emptyDir(OUTPUT_FOLDER);
