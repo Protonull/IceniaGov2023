@@ -1,0 +1,15 @@
+title: Government of Icenia
+email: icenia@protonmail.com
+description: They work for you.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://iceniagov.protonull.uk/"
+github_username:  Protonull
+github_repo: IceniaGov
+
+excerpt_separator: "<!--more-->"
+
+# Build settings
+remote_theme: ferrolho/jekyll-theme-libretto # https://github.com/ferrolho/jekyll-theme-libretto
+markdown: kramdown
+plugins:
+  - jekyll-feed
