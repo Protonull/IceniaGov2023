@@ -3,7 +3,7 @@ title: Signing the Security Enhancement Coalition Treaty
 date: 2022-09-20 18:00:00
 ---
 
-The "[Security Enhancement Coalition Treaty](https://docs.google.com/document/d/1D_RM3q6MjGyVgcV4ce_dopPXs9PLsBhUunGwbAUSqNU/mobilebasic)" was approved by the Senate and by President ChrisChrispie.
+The "[Security Enhancement Coalition Treaty](https://docs.google.com/document/d/1D_RM3q6MjGyVgcV4ce_dopPXs9PLsBhUunGwbAUSqNU/mobilebasic)", proposed by Speaker Rinvincibl3, was approved by the Senate and by President ChrisChrispie.
 <!--more-->
 
 - Speaker Rinvincibl3: Aye

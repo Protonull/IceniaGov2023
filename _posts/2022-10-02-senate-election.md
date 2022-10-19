@@ -17,3 +17,7 @@ The Senate Election returned with the following results:
 *(The vote counts were not posted for this election.)*
 
 JuniorTide won by runoff election.
+
+The Senate then retained Rinvincibl3 as Speaker for the Senate, and Slushhi as Secretary of the Interior.
+
+The President reaffirmed Lagiacrus as Secretary of Defense.

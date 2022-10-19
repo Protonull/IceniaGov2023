@@ -16,4 +16,6 @@ The Senate Election returned with the following results:
 
 *(The vote counts were not posted for this election.)*
 
-The Senate then selected Enforcer as Speaker for the Senate and Slushhi as Secretary of the Interior.
+The Senate then selected Enforcer as Speaker for the Senate, and Slushhi as Secretary of the Interior.
+
+The President reaffirmed Lagiacrus as Secretary of Defense.
