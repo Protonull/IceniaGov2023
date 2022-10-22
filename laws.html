@@ -1,0 +1,100 @@
+---
+layout: page
+nochin: true
+---
+{% assign laws = site.data.laws.entries %}
+
+<div class="govuk-width-container">
+    <div class="govuk-grid-row">
+
+        <div class="govuk-grid-column-one-half">
+            <h1>Constitution</h1>
+            {% assign law_constitution = laws | where: "kind", "constitution" %}
+            {% if law_constitution.size > 0 %}
+            <ul class="govuk-list govuk-list--bullet">
+                {% for law in law_constitution %}
+                {% unless law.hidden == true %}
+                <li>
+                    <a class="govuk-link" href="{{ law.googledoc }}" title="{{ law.fullname | default: law.name }}" target="_blank">{{ law.name }}</a>
+                </li>
+                {% endunless %}
+                {% endfor %}
+            </ul>
+            {% else %}
+            <i>Icenia currently has no Constitutional documents.</i>
+            {% endif %}
+        </div>
+
+        <div class="govuk-grid-column-one-half">
+            <h1>States</h1>
+            {% assign law_states = laws | where: "kind", "statehood" %}
+            {% if law_states.size > 0 %}
+            <ul class="govuk-list govuk-list--bullet">
+                {% for law in law_states %}
+                {% unless law.hidden == true %}
+                <li>
+                    <a class="govuk-link" href="{{ law.googledoc }}" title="{{ law.fullname | default: law.name }}" target="_blank">{{ law.name }}</a>
+                </li>
+                {% endunless %}
+                {% endfor %}
+            </ul>
+            {% else %}
+            <i>Icenia currently has no States.</i>
+            {% endif %}
+        </div>
+
+    </div>
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-one-half">
+            <h1>Ordinary Law</h1>
+            {% assign law_statute = laws | where: "kind", "statute" %}
+            {% if law_statute.size > 0 %}
+            <ul class="govuk-list govuk-list--bullet">
+                {% for law in law_statute %}
+                {% unless law.hidden == true %}
+                <li>
+                    <a class="govuk-link" href="{{ law.googledoc }}" title="{{ law.fullname | default: law.name }}" target="_blank">{{ law.name }}</a>
+                </li>
+                {% endunless %}
+                {% endfor %}
+            </ul>
+            {% else %}
+            <i>Icenia currently has no statutes.</i>
+            {% endif %}
+        </div>
+        <div class="govuk-grid-column-one-half">
+            <h1>Treaties</h1>
+            {% assign law_treaties = laws | where: "kind", "treaty" %}
+            {% if law_treaties.size > 0 %}
+            <ul class="govuk-list govuk-list--bullet">
+                {% for law in law_treaties %}
+                {% unless law.hidden == true %}
+                <li>
+                    <a class="govuk-link" href="{{ law.googledoc }}" title="{{ law.fullname | default: law.name }}" target="_blank">{{ law.name }}</a>
+                </li>
+                {% endunless %}
+                {% endfor %}
+            </ul>
+            {% else %}
+            <i>Icenia currently has no treaties.</i>
+            {% endif %}
+        </div>
+    </div>
+</div>
+
+<br/><br/><hr/>
+
+<details class="govuk-details" data-module="govuk-details">
+    <summary class="govuk-details__summary">
+        <span class="govuk-details__summary-text">
+            Expired Laws
+        </span>
+    </summary>
+    <div class="govuk-details__text">
+        {% assign law_expired = laws | where: "hidden", "true" %}
+        {% for law in law_expired %}
+        <a class="govuk-link" href="{{ law.googledoc }}" title="{{ law.fullname | default: law.name }}" target="_blank">{{ law.name }}</a>
+        {% unless forloop.last %}, {% endunless %}
+        {% endfor %}
+    </div>
+</details>

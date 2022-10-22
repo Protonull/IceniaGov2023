@@ -1,0 +1,67 @@
+---
+# This is for 
+layout: post
+---
+<div class="govuk-panel govuk-panel--confirmation">
+    <h1 class="govuk-panel__title">
+        {{ page.headline }}
+    </h1>
+    <div class="govuk-panel__body">
+        {{ page.date | date_to_long_string: "ordinal" }}
+    </div>
+</div>
+
+<div class="govuk-width-container">
+    <div class="govuk-grid-row">
+
+        <iframe class="govuk-grid-column-two-thirds" style="aspect-ratio: 1 / 1.4142;" src="data:application/pdf;base64,{{ page.document }}"></iframe>
+
+        <div class="govuk-grid-column-one-third">
+            {{ content | default: "<br/>" }}
+
+            <style>
+                a.law-link {
+                    text-decoration: none;
+                }
+                a.law-link:hover {
+                    filter: brightness(85%);
+                }
+
+                div.law-change {
+                    width: 100%;
+                    text-align: center;
+                    padding: 15px 0;
+                    margin-bottom: 10px;
+                }
+                div.law-change:active {
+                    border-bottom: 4px solid #000;
+                    margin-bottom: 6px;
+                }
+            </style>
+
+            {% for change in page.changes %}
+                {% assign matchedLaw = site.data.laws.entries | where: "slug", change.target | first %}
+                {% assign changeType = site.data.lawcolours[change.kind] | default: site.data.lawcolours["unknown"] %}
+                <a class="govuk-link law-link" href="{{ matchedLaw.url }}">
+                    <div class="law-change" style="background: #{{ changeType.background }}; color: #{{ changeType.text }};">
+                        <b>
+                        {% case change.kind %}
+                            {% when "passage" %}
+                                Enacted
+                            {% when "amendment" %}
+                                Amended
+                            {% when "repeal" %}
+                                Repealed
+                            {% when "obsolete" %}
+                                Made Obsolete
+                            {% else %}
+                                UNKNOWN
+                        {% endcase %}
+                        </b><br/>
+                        {{ matchedLaw.name | default: matchedLaw.fullname }}
+                    </div>
+                </a>
+            {% endfor %}
+        </div>
+    </div>
+</div>

@@ -1,0 +1,74 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>{{ site.title }}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="{{ page.description | default: page.excerpt | default: site.description | strip_html | normalize_whitespace | escape }}">
+        {% if page.keywords %}
+            {% if page.keywords.first %}
+                {% assign keywords = page.keywords | join: "," %}
+            {% else %}
+                {% assign keywords = page.keywords %}
+            {% endif %}
+            <meta name="keywords" content="{{ keywords }}">
+        {% endif %}
+        <link rel="canonical" href="{{ page.url | replace: "index.html", "" | absolute_url }}">
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="stylesheet" href="/assets/css/sanitize-13.0.0.css"/>
+        <link rel="stylesheet" href="/assets/css/govuk-frontend-4.3.1.min.css"/>
+        <script src="/assets/js/govuk-frontend-4.3.1.min.js"></script>
+        <style>
+            body {
+               min-height: 100vh;
+               overflow-y: scroll; /* Show scrollbars */
+            }
+        </style>
+    </head>
+    <body>
+
+        {% unless page.noheader == true %}
+        <style>
+            nav.govuk-header__navigation {
+                text-align: right;
+            }
+        </style>
+        <header class="govuk-header " role="banner" data-module="govuk-header">
+            <div class="govuk-header__container govuk-width-container">
+                <div class="govuk-header__logo">
+                    <a href="/" class="govuk-header__link govuk-header__link--homepage">
+                        <span class="govuk-header__logotype">
+                            <img src="/assets/images/icenia_logo.png" width="36px" height="36px" />
+                            <span class="govuk-header__logotype-text">
+                                Icenia
+                            </span>
+                        </span>
+                    </a>
+                </div>
+        
+                <div class="govuk-header__content">
+                    <nav aria-label="Menu" class="govuk-header__navigation ">
+                        <ul id="navigation" class="govuk-header__navigation-list">
+                            {% for nav in site.navigation %}
+                            <li class="govuk-header__navigation-item">
+                                <a class="govuk-header__link" href="{{ nav.href }}" target="{{ nav.target | default: "_self" }}">
+                                    {{ nav.label }}
+                                </a>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </nav>
+                </div>
+        
+            </div>
+        </header>
+        {% endunless %}
+
+        {{ content }}
+
+        <script>GOVUKFrontend.initAll()</script>
+    </body>
+</html>

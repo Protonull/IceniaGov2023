@@ -1,9 +1,34 @@
 ---
-title: June and July Senate
-date: 2022-06-23 18:00:00
-excerpt: Rinvincibl3, Slushhi, Charlieseese, PhysicsGamer, and Searched elected to the Senate. Charlieseese selected as Speaker of the Senate, and LordChieftain as Secretary of the Interior. Lagiacrus appointed as Secretary of Defense.
+election: true
+layout: term
+headline: June and July Senate (2022)
+term: 1
+date: 2022-06-23 17:17:00 +01:00
+parties:
+  - name: Icenian Prosperity Party (IPP)
+    bgcolour: "#B71513"
+    txtcolour: "#F2F2F2"
+    members:
+      - PhysicsGamer
+  - name: The Patriotic Society for the Development of Agriculture and Livestock (PSDAL)
+    bgcolour: "#B71513"
+    txtcolour: "#F2F2F2"
+    members:
+      - Charlieseeese
+  - name: Homeowner's Association (HOA)
+    bgcolour: "#822E9F"
+    txtcolour: "#F2F2F2"
+    members:
+      - Slushhi
+  - name: Independents
+    bgcolour: "#A3A3A3"
+    txtcolour: "#3D3D3D"
+    members:
+      - Rinvincibl3
+      - Seared
+excerpt: Rinvincibl3, Slushhi, Charlieseese, PhysicsGamer, and Searched elected to the Senate.
+icon: /assets/images/election_stock.png
 ---
-
 The Senate Election returned with the following results:
 
 - Rinvincibl3: 36

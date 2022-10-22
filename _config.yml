@@ -9,7 +9,36 @@ github_repo: IceniaGov
 excerpt_separator: "<!--more-->"
 
 # Build settings
-remote_theme: ferrolho/jekyll-theme-libretto # https://github.com/ferrolho/jekyll-theme-libretto
+theme: jekyll-theme-primer # Setting this explicitly so it doesn't randomly change in the future
+strict_front_matter: true
 markdown: kramdown
-plugins:
-  - jekyll-feed
+plugins: []
+
+permalink: /:year-:month-:day/:title
+navigation:
+  - href: /news/
+    label: News
+  - href: /laws/
+    label: Laws
+  - href: https://map.civmc.tk/?url=https://iceniagov.protonull.uk/government/borders.json
+    label: Borders
+    target: _blank
+  - href: https://discord.gg/dfwSjCjRN5
+    label: Discord
+    target: _blank
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      nochin: true
+
+keep_files:
+  - /assets/css/style.css # Override style.scss from primer
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

@@ -1,0 +1,91 @@
+---
+layout: page
+---
+<a href="/laws/" class="govuk-back-link">Go to laws</a>
+
+<style>
+    div.law-panel {
+        color: #FFFFFF;
+        background: #1D70B8;
+    }
+</style>
+<div class="govuk-panel law-panel">
+    <h1 class="govuk-panel__title">
+        {{ page.fullname | default: page.name }}
+    </h1>
+    <div class="govuk-panel__body">
+        {% case page.kind %}
+            {% when "constitution" %}
+                Constitutional Law
+            {% when "statute" %}
+                Statute Law
+            {% when "statehood" %}
+                Incorporation of Statehood
+            {% when "treaty" %}
+                International Law
+            {% when "precedent" %}
+                Judicial Precedent
+            {% else %}
+                Unknown Law Type!
+        {% endcase %}
+    </div>
+</div>
+
+<div class="govuk-width-container">
+    <div class="govuk-grid-row">
+        <iframe class="govuk-grid-column-two-thirds" style="aspect-ratio: 1 / 1.4142;" src="data:application/pdf;base64,{{ page.document }}"></iframe>
+
+        <div class="govuk-grid-column-one-third">
+            {{ content }}
+
+            <style>
+                a.law-link {
+                    text-decoration: none;
+                }
+                a.law-link:hover {
+                    filter: brightness(85%);
+                }
+
+                div.law-change {
+                    width: 100%;
+                    text-align: center;
+                    padding: 15px 0;
+                    margin-bottom: 10px;
+                }
+                div.law-change:active {
+                    border-bottom: 4px solid #000;
+                    margin-bottom: 6px;
+                }
+            </style>
+
+            {% assign posts = site.posts | where: "changetolaw", true %}
+            {% for post in posts %}
+                {% for change in post.changes %}
+                    {% if change.target == page.title %}
+                        {% assign changetype = site.data.lawcolours[change.kind] | default: site.data.lawcolours["unknown"] %}
+                        <a class="govuk-link law-link" href="{{ post.url }}">
+                            <div class="law-change" style="background: #{{ changetype.background }}; color: #{{ changetype.text }};">
+                                <b>
+                                {% case change.kind %}
+                                    {% when "passage" %}
+                                        Passage
+                                    {% when "amendment" %}
+                                        Amendment
+                                    {% when "repeal" %}
+                                        Repealment
+                                    {% when "obsolete" %}
+                                        Obsolescence
+                                    {% else %}
+                                        UNKNOWN
+                                {% endcase %}
+                                </b><br/>
+                                {{ post.headline }}<br/>
+                                ({{ post.date | date_to_long_string: "ordinal" }})
+                            </div>
+                        </a>
+                    {% endif %}
+                {% endfor %}
+            {% endfor %}
+        </div>
+    </div>
+</div>
