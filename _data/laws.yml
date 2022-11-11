@@ -39,9 +39,27 @@ entries:
     googledoc: https://docs.google.com/document/d/1deh_sb5kH6sY0j7pK2hpgB_OA5P9eKtb/mobilebasic
     kind: statute
   - hidden: false
+    slug: mdsc-treaty
+    googledoc: https://docs.google.com/document/d/1G9U0BJECO93-apfszHy7r7w9RlPvSr6AjUBw9GNsXSc/mobilebasic
+    fullname: Charter of the Mutual Defense and Support Coalition
+    name: Mutual Defense and Support Coalition
+    kind: treaty
+  - hidden: false
+    slug: titan-treaty
+    name: Friendship with Titan
+    fullname: Pact of Friendship and Mutual Economic Benefit between Titan
+      Industries and Icenia
+    googledoc: https://docs.google.com/document/d/1qZ-8tNMWJXs7wVFuJ30HYSxVPJD_zfCx/mobilebasic
+    kind: treaty
+  - hidden: false
     slug: sec-treaty
     name: Security Enhancement Coalition
     googledoc: https://docs.google.com/document/d/1D_RM3q6MjGyVgcV4ce_dopPXs9PLsBhUunGwbAUSqNU/mobilebasic
+    kind: treaty
+  - hidden: false
+    slug: temporal-independence
+    name: Treaty for Temporal Independence
+    googledoc: https://docs.google.com/document/d/1-a-mEAlyyy1G_E7FT2oawXWl2vC4kXmm/mobilebasic
     kind: treaty
   - hidden: false
     slug: statehood-for-bloom
@@ -55,18 +73,6 @@ entries:
     fullname: Statehood for Petrichor
     googledoc: https://docs.google.com/document/d/15W1U7h2jFdmRa70KY71374luVs24sFQ5gawD9rWSlbU/mobilebasic
     kind: statehood
-  - hidden: false
-    slug: titan-treaty
-    name: Friendship with Titan
-    fullname: Pact of Friendship and Mutual Economic Benefit between Titan
-      Industries and Icenia
-    googledoc: https://docs.google.com/document/d/1qZ-8tNMWJXs7wVFuJ30HYSxVPJD_zfCx/mobilebasic
-    kind: treaty
-  - hidden: false
-    slug: temporal-independence
-    name: Treaty for Temporal Independence
-    googledoc: https://docs.google.com/document/d/1-a-mEAlyyy1G_E7FT2oawXWl2vC4kXmm/mobilebasic
-    kind: treaty
   - hidden: true
     slug: statehood-for-temporal-isles
     name: State of Temporal Isles
