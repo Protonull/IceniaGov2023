@@ -10,7 +10,7 @@ changes:
     kind: passage
 icon: /assets/images/law_stock.jpeg
 ---
-This treaty, proposed by Speaker Charlieseese, was approved by the Senate and by President ChrisChrispie.<!--more-->
+Speaker Charlieseese's proposal was approved by the Senate and by President ChrisChrispie.<!--more-->
 
 - Speaker Charlieseese: Aye
 - Senator PhysicsGamer: Aye

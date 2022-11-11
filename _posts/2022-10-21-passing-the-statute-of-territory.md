@@ -10,7 +10,7 @@ changes:
     kind: passage
 icon: /assets/images/law_stock.jpeg
 ---
-The proposal, submitted by Senator  Orinnari, was approved by the Senate and by President ChrisChrispie.<!--more-->
+Senator Orinnari's proposal was approved by the Senate and by President ChrisChrispie.<!--more-->
 
 - Speaker Rinvincibl3: Aye
 - Senator Gjum: Aye

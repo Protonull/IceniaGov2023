@@ -11,8 +11,7 @@ changes:
 icon: /assets/images/law_stock.jpeg
 ---
 
-Senator Rinvincibl3's proposal was approved by the Senate and by President ChrisChrispie.
-<!--more-->
+Senator Rinvincibl3's proposal was approved by the Senate and by President ChrisChrispie.<!--more-->
 
 - Speaker Charlieseese: Aye
 - Senator PhysicsGamer: Abstain

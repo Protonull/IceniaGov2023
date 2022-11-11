@@ -10,7 +10,7 @@ changes:
     kind: amendment
 icon: /assets/images/law_stock.jpeg
 ---
-The proposed Amendment, submitted by Senator Xcios on behalf of Orinnari, was approved by the Senate and by President ChrisChrispie.<!--more-->
+Senator Xcios's proposal, submitted on behalf of Orinnari, was approved by the Senate and by President ChrisChrispie.<!--more-->
 
 - Speaker Enforcer: Aye
 - Senator Charlieseese: Aye

@@ -10,7 +10,7 @@ changes:
     kind: amendment
 icon: /assets/images/law_stock.jpeg
 ---
-Senator PhysicsGamer's proposed Amendment was approved by the Senate and by President ChrisChrispie.<!--more-->
+Senator PhysicsGamer's Amendment was approved by the Senate and by President ChrisChrispie.<!--more-->
 
 - Speaker Charlieseese: Aye
 - Senator PhysicsGamer: Aye

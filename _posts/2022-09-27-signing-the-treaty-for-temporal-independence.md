@@ -12,7 +12,7 @@ changes:
     kind: repeal
 icon: /assets/images/law_stock.jpeg
 ---
-This treaty, an Icenian edit submitted by Speaker Rinvincibl3 on behalf of PhysicsGamer, was approved by the Senate and by President ChrisChrispie.<!--more-->
+Speaker Rinvincibl3's proposal, submitted and edited on behalf of PhysicsGamer, was approved by the Senate and by President ChrisChrispie.<!--more-->
 
 - Speaker Rinvincibl3: Aye
 - Senator Gjum: Aye

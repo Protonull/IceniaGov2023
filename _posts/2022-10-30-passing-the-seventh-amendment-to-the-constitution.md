@@ -10,7 +10,7 @@ changes:
     kind: amendment
 icon: /assets/images/law_stock.jpeg
 ---
-Senator Orinnari's proposed Amendment was approved by the Senate and by President ChrisChrispie.<!--more-->
+Senator Orinnari's Amendment was approved by the Senate and by President ChrisChrispie.<!--more-->
 
 - Speaker Rinvincibl3: Aye
 - Senator Gjum: Aye

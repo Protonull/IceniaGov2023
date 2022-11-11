@@ -10,7 +10,7 @@ changes:
     kind: passage
 icon: /assets/images/law_stock.jpeg
 ---
-The proposal, submitted by Senator PhysicsGamer on behalf of Orinnari, was approved by the Senate and by President ChrisChrispie.<!--more-->
+Senator PhysicsGamer's proposal, submitted on behalf of Orinnari, was approved by the Senate and by President ChrisChrispie.<!--more-->
 
 - Speaker Enforcer: Abstain
 - Senator Charlieseese: Aye

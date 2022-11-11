@@ -10,8 +10,7 @@ changes:
     kind: passage
 icon: /assets/images/law_stock.jpeg
 ---
-This treaty, proposed by Speaker Rinvincibl3, was approved by the Senate and by President ChrisChrispie.
-<!--more-->
+Speaker Rinvincibl3's proposal was approved by the Senate and by President ChrisChrispie.<!--more-->
 
 - Speaker Rinvincibl3: Aye
 - Senator Gjum: Abstain
@@ -20,5 +19,3 @@ This treaty, proposed by Speaker Rinvincibl3, was approved by the Senate and by 
 - Senator Shadno: Aye
 - Senator slowlyfunny2: Aye
 - Senator Xcios: Aye
-
-*(The treaty document is not owned by Icenia. The link may expire or the contents may change without warning.)*
