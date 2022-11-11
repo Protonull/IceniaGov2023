@@ -20,7 +20,7 @@ navigation:
     label: News
   - href: /laws/
     label: Laws
-  - href: https://map.civmc.tk/?url=https://iceniagov.protonull.uk/government/borders.json
+  - href: https://map.civmc.tk/#url=https://iceniagov.protonull.uk/government/borders.json
     label: Borders
     target: _blank
   - href: https://discord.gg/dfwSjCjRN5
