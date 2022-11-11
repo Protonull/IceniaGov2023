@@ -28,6 +28,12 @@ navigation:
     target: _blank
 
 defaults:
+  # Ensure that pages are "/name/index.html" instead of "/name.html"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      permalink: "/:path/:basename/"
   - scope:
       path: ""
       type: "posts"
