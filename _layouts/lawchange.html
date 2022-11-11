@@ -42,7 +42,7 @@ layout: post
             {% for change in page.changes %}
                 {% assign matchedLaw = site.data.laws.entries | where: "slug", change.target | first %}
                 {% assign changeType = site.data.lawcolours[change.kind] | default: site.data.lawcolours["unknown"] %}
-                <a class="govuk-link law-link" href="{{ matchedLaw.url }}">
+                <a class="govuk-link law-link" href="{{ matchedLaw.googledoc }}">
                     <div class="law-change" style="background: #{{ changeType.background }}; color: #{{ changeType.text }};">
                         <b>
                         {% case change.kind %}
