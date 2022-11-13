@@ -71,20 +71,22 @@ nochin: true
     </div>
 </div>
 
-<br/><br/><hr/>
-
-<details class="govuk-details" data-module="govuk-details">
-    <summary class="govuk-details__summary">
-        <span class="govuk-details__summary-text">
-            Expired Laws
-        </span>
-    </summary>
-    <div class="govuk-details__text">
-        {% assign law_expired = site.data.laws.entries | where: "hidden", "true" %}
-        {% for law in law_expired %}
-            {% include function_findChangesByLaw.html target=law.slug %}
-            {% include component_LawCard.html law=law changes=matchedlaws %}
-            {% assign matchedlaws = nil %}
-        {% endfor %}
-    </div>
-</details>
+{% assign laws_expired = site.data.laws.entries | where: "hidden", "true" %}
+{% assign laws_expired_size = laws_expired | size %}
+{% if laws_expired_size > 0 %}
+    <br/><br/><hr/>
+    <details class="govuk-details" data-module="govuk-details">
+        <summary class="govuk-details__summary">
+            <span class="govuk-details__summary-text">
+                Expired Laws
+            </span>
+        </summary>
+        <div class="govuk-details__text">
+            {% for law in laws_expired %}
+                {% include function_findChangesByLaw.html target=law.slug %}
+                {% include component_LawCard.html law=law changes=matchedlaws %}
+                {% assign matchedlaws = nil %}
+            {% endfor %}
+        </div>
+    </details>
+{% endif %}
