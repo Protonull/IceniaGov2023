@@ -54,22 +54,20 @@ nochin: true
     }
 </style>
 
-<div class="govuk-width-container">
-    <div class="govuk-grid-row">
-        <div class="govuk-grid-column-one-half">
-            {% include component_LawsSection.html header="Constitution" type="constitution" fallback="Icenia currently has no Constitutional documents." %}
-        </div>
-        <div class="govuk-grid-column-one-half">
-            {% include component_LawsSection.html header="States" type="statehood" fallback="Icenia currently has no States." %}
-        </div>
+<div class="govuk-grid-row">
+    <div class="govuk-grid-column-one-half">
+        {% include component_LawsSection.html header="Constitution" type="constitution" fallback="Icenia currently has no Constitutional documents." %}
     </div>
-    <div class="govuk-grid-row">
-        <div class="govuk-grid-column-one-half">
-            {% include component_LawsSection.html header="Ordinary Law" type="statute" fallback="Icenia currently has no statutes." %}
-        </div>
-        <div class="govuk-grid-column-one-half">
-            {% include component_LawsSection.html header="Treaties" type="treaty" fallback="Icenia currently has no treaties." %}
-        </div>
+    <div class="govuk-grid-column-one-half">
+        {% include component_LawsSection.html header="States" type="statehood" fallback="Icenia currently has no States." %}
+    </div>
+</div>
+<div class="govuk-grid-row">
+    <div class="govuk-grid-column-one-half">
+        {% include component_LawsSection.html header="Ordinary Law" type="statute" fallback="Icenia currently has no statutes." %}
+    </div>
+    <div class="govuk-grid-column-one-half">
+        {% include component_LawsSection.html header="Treaties" type="treaty" fallback="Icenia currently has no treaties." %}
     </div>
 </div>
 
