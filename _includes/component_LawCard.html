@@ -1,0 +1,56 @@
+<div class="law-card">
+    <div class="law-card-internal">
+        <div class="law-card-content">
+            <div class="law-card-title">
+                <a href="{{ include.law.googledoc }}" class="govuk-link open-law-link" target="_blank">Open</a>
+                {{ include.law.name | default: "Unknown Law" }}
+            </div>
+            <div class="law-card-supplement">
+                <details class="govuk-details law-details" data-module="govuk-details">
+                    <summary class="govuk-details__summary">
+                        <span class="govuk-details__summary-text">
+                            View history
+                        </span>
+                    </summary>
+                    <div class="govuk-details__text">
+                        <table class="govuk-table">
+                            <tbody class="govuk-table__body">
+                                {% for proposal in include.changes %}
+                                    {% for change in proposal.changes %}
+                                        {% if change.target == include.law.slug %}
+                                            {% assign __law_card_details_colour = site.data.lawcolours[change.kind] | default: site.data.lawcolours["unknown"] %}
+                                            <tr class="govuk-table__row">
+                                                <th scope="row" class="govuk-table__header">
+                                                    <a href="{{ proposal.url }}" class="govuk-link">
+                                                        {{ proposal.headline }}
+                                                    </a>
+                                                </th>
+                                                <td class="govuk-table__cell govuk-!-text-align-right">
+                                                    <strong class="govuk-tag" style="background-color: #{{ __law_card_details_colour.background }};">
+                                                        {% case change.kind %}
+                                                            {% when "passage" %}
+                                                                Enacted
+                                                            {% when "amendment" %}
+                                                                Amended
+                                                            {% when "repeal" %}
+                                                                Repealed
+                                                            {% when "obsolete" %}
+                                                                Obsolete
+                                                            {% else %}
+                                                                Changed
+                                                        {% endcase %}
+                                                    </strong>
+                                                </td>
+                                            </tr>
+                                            {% assign __law_card_details_colour = nil %}
+                                        {% endif %}
+                                    {% endfor %}
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </details>
+            </div>
+        </div>
+    </div>
+</div>

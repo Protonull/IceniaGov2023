@@ -1,0 +1,1 @@
+{% assign matchedlaws = "" | split: "" %}{% assign __findChangesPosts = site.posts | where: "changetolaw", true %}{% for post in __findChangesPosts %}{% for change in post.changes %}{% if change.target == include.target %}{% assign matchedlaws = matchedlaws | push: post %}{% break %}{% endif %}{% endfor %}{% endfor %}

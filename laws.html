@@ -2,82 +2,73 @@
 layout: page
 nochin: true
 ---
-{% assign laws = site.data.laws.entries %}
+<style>
+    div.law-card {
+        display: block;
+        margin-bottom: 25px;
+        box-shadow: 0 1px 1px 0 rgba(60,64,67,.08),0 1px 3px 1px rgba(60,64,67,.16);
+        color: #373151;
+        text-decoration: none;
+        font-family: "nta", Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.25;
+    }
+
+    div.law-card-internal {
+        position: relative;
+        display: flex;
+        padding: 10px 15px 10px 15px;
+        border-left: 10px solid #1D70B8;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    div.law-card-content {
+        flex-grow: 1;
+    }
+
+    div.law-card-title {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    div.law-card-supplement {
+        padding-right: 15px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        border-top: 1px dotted rgb(203, 201, 205);
+        margin-top: 7px;
+        margin-right: -15px;
+        margin-bottom: -10px;
+        color: #717171;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    details.law-details {
+        margin-bottom: 0 !important;
+    }
+
+    a.open-law-link {
+        float: right;
+    }
+</style>
 
 <div class="govuk-width-container">
     <div class="govuk-grid-row">
-
         <div class="govuk-grid-column-one-half">
-            <h1>Constitution</h1>
-            {% assign law_constitution = laws | where: "kind", "constitution" %}
-            {% if law_constitution.size > 0 %}
-            <ul class="govuk-list govuk-list--bullet">
-                {% for law in law_constitution %}
-                {% unless law.hidden == true %}
-                <li>
-                    <a class="govuk-link" href="{{ law.googledoc }}" title="{{ law.fullname | default: law.name }}" target="_blank">{{ law.name }}</a>
-                </li>
-                {% endunless %}
-                {% endfor %}
-            </ul>
-            {% else %}
-            <i>Icenia currently has no Constitutional documents.</i>
-            {% endif %}
+            {% include component_LawsSection.html header="Constitution" type="constitution" fallback="Icenia currently has no Constitutional documents." %}
         </div>
-
         <div class="govuk-grid-column-one-half">
-            <h1>States</h1>
-            {% assign law_states = laws | where: "kind", "statehood" %}
-            {% if law_states.size > 0 %}
-            <ul class="govuk-list govuk-list--bullet">
-                {% for law in law_states %}
-                {% unless law.hidden == true %}
-                <li>
-                    <a class="govuk-link" href="{{ law.googledoc }}" title="{{ law.fullname | default: law.name }}" target="_blank">{{ law.name }}</a>
-                </li>
-                {% endunless %}
-                {% endfor %}
-            </ul>
-            {% else %}
-            <i>Icenia currently has no States.</i>
-            {% endif %}
+            {% include component_LawsSection.html header="States" type="statehood" fallback="Icenia currently has no States." %}
         </div>
-
     </div>
     <div class="govuk-grid-row">
         <div class="govuk-grid-column-one-half">
-            <h1>Ordinary Law</h1>
-            {% assign law_statute = laws | where: "kind", "statute" %}
-            {% if law_statute.size > 0 %}
-            <ul class="govuk-list govuk-list--bullet">
-                {% for law in law_statute %}
-                {% unless law.hidden == true %}
-                <li>
-                    <a class="govuk-link" href="{{ law.googledoc }}" title="{{ law.fullname | default: law.name }}" target="_blank">{{ law.name }}</a>
-                </li>
-                {% endunless %}
-                {% endfor %}
-            </ul>
-            {% else %}
-            <i>Icenia currently has no statutes.</i>
-            {% endif %}
+            {% include component_LawsSection.html header="Ordinary Law" type="statute" fallback="Icenia currently has no statutes." %}
         </div>
         <div class="govuk-grid-column-one-half">
-            <h1>Treaties</h1>
-            {% assign law_treaties = laws | where: "kind", "treaty" %}
-            {% if law_treaties.size > 0 %}
-            <ul class="govuk-list govuk-list--bullet">
-                {% for law in law_treaties %}
-                {% unless law.hidden == true %}
-                <li>
-                    <a class="govuk-link" href="{{ law.googledoc }}" title="{{ law.fullname | default: law.name }}" target="_blank">{{ law.name }}</a>
-                </li>
-                {% endunless %}
-                {% endfor %}
-            </ul>
-            {% else %}
-            <i>Icenia currently has no treaties.</i>
-            {% endif %}
+            {% include component_LawsSection.html header="Treaties" type="treaty" fallback="Icenia currently has no treaties." %}
         </div>
     </div>
 </div>
@@ -91,10 +82,11 @@ nochin: true
         </span>
     </summary>
     <div class="govuk-details__text">
-        {% assign law_expired = laws | where: "hidden", "true" %}
+        {% assign law_expired = site.data.laws.entries | where: "hidden", "true" %}
         {% for law in law_expired %}
-        <a class="govuk-link" href="{{ law.googledoc }}" title="{{ law.fullname | default: law.name }}" target="_blank">{{ law.name }}</a>
-        {% unless forloop.last %}, {% endunless %}
+            {% include function_findChangesByLaw.html target=law.slug %}
+            {% include component_LawCard.html law=law changes=matchedlaws %}
+            {% assign matchedlaws = nil %}
         {% endfor %}
     </div>
 </details>

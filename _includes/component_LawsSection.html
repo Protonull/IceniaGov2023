@@ -1,0 +1,13 @@
+<h1>{{ include.header | default: "" }}</h1>
+{% assign __law_section_laws = site.data.laws.entries | where: "kind", include.type %}
+{% if __law_section_laws.size > 0 %}
+    {% for law in __law_section_laws %}
+        {% unless law.hidden == true %}
+            {% include function_findChangesByLaw.html target=law.slug %}
+            {% include component_LawCard.html law=law changes=matchedlaws %}
+            {% assign matchedlaws = nil %}
+        {% endunless %}
+    {% endfor %}
+{% else %}
+    <i>{{ include.fallback }}</i>
+{% endif %}
