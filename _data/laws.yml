@@ -17,10 +17,11 @@ entries:
     googledoc: https://docs.google.com/document/d/1g9siwslECiQb6ikezds5ZPWxWocMcGPQ/mobilebasic
     kind: statute
   - hidden: false
-    slug: accountability-for-government-and-officials
-    name: Accountability for Government Decisions and Officials
-    googledoc: https://docs.google.com/document/d/14jtfjOcfyRnBP9R1q0Y5TqMoRoztlIOz/mobilebasic
+    slug: hansard-act
+    name: Hansard Act
+    fullname: The Hansard Act
     kind: statute
+    googledoc: https://docs.google.com/document/d/1WYTTxP2RXIwvsfFNH8vVSCF2km6YsVp9iUSxJQKXtUw/mobilebasic
   - hidden: false
     slug: agenda-for-future-growth
     name: Agendas for Future Growth Act
@@ -45,13 +46,6 @@ entries:
     name: Mutual Defense and Support Coalition
     kind: treaty
   - hidden: false
-    slug: titan-treaty
-    name: Friendship with Titan
-    fullname: Pact of Friendship and Mutual Economic Benefit between Titan
-      Industries and Icenia
-    googledoc: https://docs.google.com/document/d/1qZ-8tNMWJXs7wVFuJ30HYSxVPJD_zfCx/mobilebasic
-    kind: treaty
-  - hidden: false
     slug: sec-treaty
     name: Security Enhancement Coalition
     googledoc: https://docs.google.com/document/d/1D_RM3q6MjGyVgcV4ce_dopPXs9PLsBhUunGwbAUSqNU/mobilebasic
@@ -73,6 +67,18 @@ entries:
     fullname: Statehood for Petrichor
     googledoc: https://docs.google.com/document/d/15W1U7h2jFdmRa70KY71374luVs24sFQ5gawD9rWSlbU/mobilebasic
     kind: statehood
+  - hidden: true
+    slug: accountability-for-government-and-officials
+    name: Accountability for Government Decisions and Officials
+    googledoc: https://docs.google.com/document/d/14jtfjOcfyRnBP9R1q0Y5TqMoRoztlIOz/mobilebasic
+    kind: statute
+  - hidden: true
+    slug: titan-treaty
+    name: Friendship with Titan
+    fullname: Pact of Friendship and Mutual Economic Benefit between Titan
+      Industries and Icenia
+    googledoc: https://docs.google.com/document/d/1qZ-8tNMWJXs7wVFuJ30HYSxVPJD_zfCx/mobilebasic
+    kind: treaty
   - hidden: true
     slug: statehood-for-temporal-isles
     name: State of Temporal Isles
