@@ -23,12 +23,6 @@ entries:
     kind: statute
     googledoc: https://docs.google.com/document/d/1WYTTxP2RXIwvsfFNH8vVSCF2km6YsVp9iUSxJQKXtUw/mobilebasic
   - hidden: false
-    slug: agenda-for-future-growth
-    name: Agendas for Future Growth Act
-    fullname: Creation of Icenian Agendas for Future Growth
-    googledoc: https://docs.google.com/document/d/1GnoxazuIKmBgRTVzhj7-WxxU6BZKjz9f/mobilebasic
-    kind: statute
-  - hidden: false
     slug: expanded-states-rights
     name: Expanded States Rights Act
     fullname: Expanded States Rights Bill
@@ -67,6 +61,12 @@ entries:
     fullname: Statehood for Petrichor
     googledoc: https://docs.google.com/document/d/15W1U7h2jFdmRa70KY71374luVs24sFQ5gawD9rWSlbU/mobilebasic
     kind: statehood
+  - hidden: true
+    slug: agenda-for-future-growth
+    name: Agendas for Future Growth Act
+    fullname: Creation of Icenian Agendas for Future Growth
+    googledoc: https://docs.google.com/document/d/1GnoxazuIKmBgRTVzhj7-WxxU6BZKjz9f/mobilebasic
+    kind: statute
   - hidden: true
     slug: accountability-for-government-and-officials
     name: Accountability for Government Decisions and Officials
