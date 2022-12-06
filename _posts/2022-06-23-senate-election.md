@@ -37,6 +37,6 @@ The Senate Election returned with the following results:
 - PhysicsGamer: 21
 - Seared: 20
 
-The Senate then selected Charlieseese as Speaker for the Senate, and LordChieftain as Secretary of the Interior.
+The Senate then selected Senator Charlieseese as Speaker of the Senate, and LordChieftain as Secretary of the Interior.
 
 The President appointed Lagiacrus as his Secretary of Defense.

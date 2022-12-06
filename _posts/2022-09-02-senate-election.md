@@ -37,6 +37,6 @@ The Senate Election returned with the following results:
 - MrJeremyFisher: 19
 - slowlyfunny2: 17
 
-The Senate then selected Rinvincibl3 as Speaker for the Senate, and retained Slushhi as Secretary of the Interior.
+The Senate then selected Senator Rinvincibl3 as Speaker of the Senate, and retained Slushhi as Secretary of the Interior.
 
 The President reaffirmed Lagiacrus as Secretary of Defense.
