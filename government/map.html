@@ -1,0 +1,47 @@
+<!-- Map used for testing out any borders.json changes -->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Map</title>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, maximum-scale=1, minimum-scale=1"/>
+	</head>
+	<body>
+		<div id="app-root">Loading...</div>
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.css"/>
+		<link rel="stylesheet" type="text/css" href="https://ccmap.github.io/style.css"/>
+		<script src="https://ccmap.github.io/js/bundle.js"></script>
+		<script type="text/javascript">
+			window.civMapApi = CivMap.start({
+				defaultCollectionUrls: [
+					{ source: "borders.json", enabled_presentation: true },
+					{ source: "https://map.civmc.tk/territories-thejmqn.json", enabled_presentation: false }
+				],
+				initialState: {
+					mapConfig: {
+						borderApothem: 10000,
+						tilesRoot: "https://civmc-map.github.io/tiles/",
+						basemaps: {
+							terrain: {
+								name: "Terrain",
+								id: "terrain",
+								bgColor: "#000",
+								isDefault: true
+							},
+                            biome: {
+                                name: "Biome",
+                                id: "biome",
+                                bgColor: "#888"
+                            },
+							topo: {
+								name: "Topographic",
+								id: "topo",
+								bgColor: "#888"
+							}
+						}
+					}
+				}
+			});
+		</script>
+	</body>
+</html>
