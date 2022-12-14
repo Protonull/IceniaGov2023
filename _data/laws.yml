@@ -50,6 +50,11 @@ entries:
     googledoc: https://docs.google.com/document/d/1-a-mEAlyyy1G_E7FT2oawXWl2vC4kXmm/mobilebasic
     kind: treaty
   - hidden: false
+    slug: temporal-vault-treaty
+    name: Temporal Vault Treaty
+    kind: treaty
+    googledoc: https://docs.google.com/document/d/1Q6S_pqBjJ2SSOKPLl76jMv-2E5qntW8bCuIZck6iaps/mobilebasic
+  - hidden: false
     slug: statehood-for-bloom
     name: Viceroyalty of Bloom
     fullname: Statehood for the Viceroyalty of Bloom
