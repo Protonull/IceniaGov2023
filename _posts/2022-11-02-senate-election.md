@@ -49,4 +49,4 @@ The Senate Election returned with the following results:
 - MotokoKusanagi: 18
 - Naglafer: 17
 
-The Senate then retained Senator Rinvincibl3 as Speaker of the Senate, and Slushhi as Secretary of the Interior.
+The Senate then retained Senator Rinvincibl3 as Speaker of the Senate, and retained Slushhi as Secretary of the Interior.
