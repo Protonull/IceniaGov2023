@@ -32,6 +32,7 @@ parties:
     members:
       - Rinvincibl3
       - Gjum
+      - MrJeremyFisher
 excerpt: Cammo, Gjum, Slushhi, Rinvincibl3, Shadno, Seared, and Orinnari elected to the Senate.
 icon: /assets/images/election_stock.png
 ---
@@ -45,6 +46,8 @@ The Senate Election returned with the following results:
 - Seared: 21
 - Orinnari: 19
 
-The Senate then retained Senator Rinvincibl3 as Speaker of the Senate for his fifth consecutive term, and retained Xcios as the new Secretary of the Interior.
+The Senate then retained Senator Rinvincibl3 as Speaker of the Senate for his fifth consecutive term, and retained Senator Xcios as the new Secretary of the Interior.
 
 Senator Orinnari stepped down on the 16th, triggering a by-election.
+
+MrJeremyFisher was subsequently elected to fill the vacant seat.
