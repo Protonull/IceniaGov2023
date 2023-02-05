@@ -12,7 +12,8 @@ excerpt_separator: "<!--more-->"
 theme: jekyll-theme-primer # Setting this explicitly so it doesn't randomly change in the future
 strict_front_matter: true
 markdown: kramdown
-plugins: []
+plugins:
+  - jekyll-redirect-from
 
 permalink: /:year-:month-:day/:title
 navigation:
@@ -20,7 +21,7 @@ navigation:
     label: News
   - href: /laws/
     label: Laws
-  - href: https://map.civmc.tk/#url=https://iceniagov.protonull.uk/government/borders.json
+  - href: /government/borders/
     label: Borders
     target: _blank
   - href: https://discord.gg/dfwSjCjRN5
