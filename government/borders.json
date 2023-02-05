@@ -13,7 +13,7 @@ permalink: /government/borders.json
     "info": {
         "version": "3.0.0-beta3",
         {% comment %} Use https://www.epochconverter.com/ to update the "last_update" timestamp {% endcomment %}
-        "last_update": 1675618045
+        "last_update": 1675619766
     },
     "features": [
         {
@@ -46,10 +46,12 @@ permalink: /government/borders.json
             {{ territory_details }}
         },
         {
-            "name": "Icenian Nether Portal",
+            "name": "Sarlacc Pit (Nether Portal)",
             "id": "civmc/icenia/portals/1",
             "x": -4904,
             "z": -2830,
+            "notes": "This portal is governed by the Butternut Portal Treaty.",
+            "Butternut Portal Treaty": "https://docs.google.com/document/d/19D4YcCd3btGQP47uOTOY_5LjCpXEdAq8yn1kreFzVEA/mobilebasic",
             {{ territory_details }}
         },
         {
