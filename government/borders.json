@@ -13,7 +13,7 @@ permalink: /government/borders.json
     "info": {
         "version": "3.0.0-beta3",
         {% comment %} Use https://www.epochconverter.com/ to update the "last_update" timestamp {% endcomment %}
-        "last_update": 1675619766
+        "last_update": 1675619857
     },
     "features": [
         {
@@ -55,7 +55,7 @@ permalink: /government/borders.json
             {{ territory_details }}
         },
         {
-            "name": "Icenian Nether Portal",
+            "name": "Iceniar's Nether Portal",
             "id": "civmc/icenia/portals/2",
             "x": -2136,
             "z": -7560,
