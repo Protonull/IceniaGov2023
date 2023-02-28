@@ -103,3 +103,9 @@ entries:
     fullname: Statehood for the Temporal Isles
     googledoc: https://docs.google.com/document/d/1QUDdqb4TquqjqqzAQppC4FdHTD2CPgeEwV6-zFMZAvY/mobilebasic
     kind: statehood
+  - hidden: true
+    name: Kallos Mututal Defence Pact
+    googledoc: https://docs.google.com/document/d/1QJZ-d2amHWpeFQN8XA-7-s3fdFjn_1pmpwRh03TFaTc/mobilebasic
+    kind: treaty
+    fullname: Mutual Defense Pact Treaty - Icenia and Kallos
+    slug: kallos-defence-pact
