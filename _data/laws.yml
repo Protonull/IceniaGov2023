@@ -62,6 +62,12 @@ entries:
     fullname: Agreement Regarding Use of Western Portal in Icenian Claims Between
       Butternut and Icenia
   - hidden: false
+    googledoc: https://drive.google.com/file/d/1pYLcZynDMC8NMVddMCUn5tu-tZmusTF4/view
+    kind: treaty
+    name: Icarus Mutual Raider Defence Pact
+    fullname: Pact of Friendship and Mutual Defense Against Raiders for Icenia and Icarus
+    slug: icarus-defence-pact
+  - hidden: false
     slug: statehood-for-bloom
     name: Viceroyalty of Bloom
     fullname: Statehood for the Viceroyalty of Bloom
