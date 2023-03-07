@@ -32,3 +32,5 @@ The Senate Election returned with the following results:
 - Rinvincibl3: 17
 - slowlyfunny2: 17
 - Anvil: 16
+
+The Senate then selected Gjum as the new Speaker of the Senate, and Anvil as the new Secretary of the Interior.
