@@ -39,6 +39,11 @@ entries:
     googledoc: https://docs.google.com/document/d/1x7W6yq_anTNKSOl-NuOHOfYwsdup2h9sU_w-kDwxF4Y/mobilebasic
     kind: statute
   - hidden: false
+    slug: icenia-snitches-act
+    name: Icenian Snitches Act
+    googledoc: https://docs.google.com/document/d/13RnmyUIWOL2fiC-G9c7l_LDb1-jjLJZ5Xg4k-M1Ul2s/mobilebasic
+    kind: statute
+  - hidden: false
     slug: formatting-of-dates
     name: Formatting of Dates Act
     googledoc: https://docs.google.com/document/d/1deh_sb5kH6sY0j7pK2hpgB_OA5P9eKtb/mobilebasic
