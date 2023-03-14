@@ -29,6 +29,11 @@ entries:
     googledoc: https://docs.google.com/document/d/1K6s8M3hxwmyY6OAHACVxlMM9ysgiqTWA/mobilebasic
     kind: statute
   - hidden: false
+    googledoc: https://docs.google.com/document/d/1HQ1kS1Rej8eq1f7pnklXpQrAD4GMGhkGvqzeDKnRMF8/mobilebasic
+    kind: statute
+    name: Building Regulations Act
+    slug: building-regulations-act
+  - hidden: false
     slug: formatting-of-dates
     name: Formatting of Dates Act
     googledoc: https://docs.google.com/document/d/1deh_sb5kH6sY0j7pK2hpgB_OA5P9eKtb/mobilebasic
