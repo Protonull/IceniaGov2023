@@ -10,7 +10,7 @@ changes:
     kind: amendment
 icon: /assets/images/law_stock.jpeg
 ---
-This proposal was approved by the Senate and by President ChrisChrispie.<!--more-->
+Speaker Gjum's proposal, submitted on behalf of Orinnari, was approved by the Senate and by President ChrisChrispie.<!--more-->
 
 - Speaker Gjum: Aye
 - Senator Anvil: Aye

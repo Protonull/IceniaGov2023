@@ -17,3 +17,5 @@ This proposal was approved by the Senate and by President ChrisChrispie.<!--more
 - Senator Gjum: Aye
 - Senator Orinnari: Aye
 - Senator Seared: Aye
+
+*(This Bill was perculiarly submitted by the Secretary of Defense: JuniorTide, but was nonetheless approved unanimously.)*

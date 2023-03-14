@@ -10,7 +10,7 @@ changes:
     kind: passage
 icon: /assets/images/law_stock.jpeg
 ---
-This proposal was approved by the Senate and by President ChrisChrispie.<!--more-->
+Senator awart1881's proposal was approved by the Senate and by President ChrisChrispie.<!--more-->
 
 - Speaker Gjum: Aye
 - Senator Anvil: Aye
