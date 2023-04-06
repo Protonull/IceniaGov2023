@@ -11,6 +11,7 @@ excerpt_separator: "<!--more-->"
 # Build settings
 theme: jekyll-theme-primer # Setting this explicitly so it doesn't randomly change in the future
 strict_front_matter: true
+future: true # Permit posts dated in the future
 markdown: kramdown
 plugins:
   - jekyll-redirect-from
