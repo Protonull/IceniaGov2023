@@ -4,7 +4,9 @@ layout: lawchange
 institution: executive
 headline: Nullifying the Temporal Treaties.
 date: 2023-03-07 15:10:00 +00:00
-document: ====
+document: 
+  type: inline-pdf
+  value: ====
 changes:
   - target: temporal-independence
     kind: repeal

@@ -126,12 +126,25 @@ collections:
         time_format: "HH:mm" # e.g. 21:07
         format: "YYYY-MM-DD HH:mm:00 Z"
         hint: "Typically it's when the President gave assent."
-      # Document Link
-      - label: "Document (PDF Base64)"
+      # Headline
+      - label: "How are you embedding this?"
         name: "document"
-        widget: "string"
+        widget: "object"
         required: true
-        hint: "Please download a PDF of the Bill and use https://base64.guru/converter/encode/file or other service to generate a base64 string"
+        fields:
+          - label: "Type"
+            name: "type"
+            widget: "select"
+            options:
+              - {label: "Inline PDF", value: "inline-pdf"}
+              - {label: "Local File", value: "local-file"}
+              - {label: "Remote File", value: "remote-file"}
+            default: ""
+          - label: "Value"
+            name: "value"
+            widget: "string"
+            required: true
+            hint: "If you're using Inline PDF, please use https://base64.guru/converter/encode/file or other service to generate a base64 string of that PDF and paste it here."
       # Changes
       - label: "Changes to Law"
         name: "changes"
