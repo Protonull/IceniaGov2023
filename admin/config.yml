@@ -139,6 +139,7 @@ collections:
               - {label: "Inline PDF", value: "inline-pdf"}
               - {label: "Local File", value: "local-file"}
               - {label: "Remote File", value: "remote-file"}
+              - {label: "Markdown", value: "markdown"}
             default: ""
           - label: "Value"
             name: "value"

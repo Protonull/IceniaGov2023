@@ -14,22 +14,24 @@ layout: post
 <div class="govuk-width-container">
     <div class="govuk-grid-row">
 
-        {% if page.document.value == "====" %}
-            <div class="govuk-grid-column-two-thirds">
+        <div class="govuk-grid-column-two-thirds">
+            {% if page.document.value == "====" %}
                 {{ content | default: "<br/>" }}
-            </div>
-        {% else %}
-            {% case page.document.type %}
-                {% when "inline-pdf" %}
-                    <iframe class="govuk-grid-column-two-thirds" style="aspect-ratio: 1 / 1.4142;" src="data:application/pdf;base64,{{ page.document.value }}"></iframe>
-                {% when "local-file" %}
-                    <iframe class="govuk-grid-column-two-thirds" style="aspect-ratio: 1 / 1.4142;" src="{{ page.document.value | absolute_url }}"></iframe>
-                {% when "remote-file" %}
-                    <iframe class="govuk-grid-column-two-thirds" style="aspect-ratio: 1 / 1.4142;" src="{{ page.document.value }}"></iframe>
-                {% else %}
-                    UNKNOWN DOCUMENT EMBED!
-            {% endcase %}
-        {% endif %}
+            {% else %}
+                {% case page.document.type %}
+                    {% when "markdown" %}
+                        {{ page.document.value | markdownify }}
+                    {% when "inline-pdf" %}
+                        <iframe class="pdf-embed" src="data:application/pdf;base64,{{ page.document.value }}"></iframe>
+                    {% when "local-file" %}
+                        <iframe class="pdf-embed" src="{{ page.document.value | absolute_url }}"></iframe>
+                    {% when "remote-file" %}
+                        <iframe class="pdf-embed" src="{{ page.document.value }}"></iframe>
+                    {% else %}
+                        UNKNOWN DOCUMENT EMBED!
+                {% endcase %}
+            {% endif %}
+        </div>
 
         <div class="govuk-grid-column-one-third">
             {% unless page.document.value == "====" %}

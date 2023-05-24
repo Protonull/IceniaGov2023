@@ -1,1 +1,8 @@
-/* This exists only to override the style.scss output from Jekyll ಠ_ಠ */
+/* This also exists to override the style.scss output from Jekyll ಠ_ಠ */
+
+.pdf-embed {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    aspect-ratio: 1 / 1.4142;
+}
