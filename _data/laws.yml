@@ -57,12 +57,6 @@ entries:
     googledoc: https://docs.google.com/document/d/12ADtBSS3vX3fRdozvxPuCsNozkrM07bV/mobilebasic
     kind: statehood
   - hidden: false
-    slug: statehood-for-petrichor
-    name: State of Petrichor
-    fullname: Statehood for Petrichor
-    googledoc: https://docs.google.com/document/d/15W1U7h2jFdmRa70KY71374luVs24sFQ5gawD9rWSlbU/mobilebasic
-    kind: statehood
-  - hidden: false
     slug: statehood-for-southshire
     name: State of Southshire
     fullname: Statehood for Southshire
@@ -130,3 +124,9 @@ entries:
     name: Icarus Mutual Raider Defence Pact
     fullname: Pact of Friendship and Mutual Defense Against Raiders for Icenia and Icarus
     slug: icarus-defence-pact
+  - hidden: true
+    slug: statehood-for-petrichor
+    name: State of Petrichor
+    fullname: Statehood for Petrichor
+    googledoc: https://docs.google.com/document/d/15W1U7h2jFdmRa70KY71374luVs24sFQ5gawD9rWSlbU/mobilebasic
+    kind: statehood
