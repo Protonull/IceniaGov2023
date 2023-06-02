@@ -1,5 +1,17 @@
 ---
-title: "Icenia's Borders"
-redirect_to: "https://map.civmc.tk/#url=https://iceniagov.protonull.uk/government/borders.json"
+layout: none
 ---
-Redirecting...
+{% assign redirectto = "/government/borders.json" | absolute_url %}
+<!DOCTYPE html>
+<html lang="en-GB">
+    <meta charset="utf-8">
+    <title>Redirecting...</title>
+    <meta name="robots" content="noindex">
+    {% if jekyll.environment == "production" %}
+    <link rel="canonical" href="https://map.civmc.tk/#url={{ redirectto }}">
+    <script>location="https://map.civmc.tk/#url={{ redirectto }}"</script>
+    <meta http-equiv="refresh" content="0; url=https://map.civmc.tk/#url={{ redirectto }}">
+    {% endif %}
+    <h1>Redirecting...</h1>
+    <a href="https://map.civmc.tk/#url={{ redirectto }}">Click here if you are not redirected.</a>
+</html>

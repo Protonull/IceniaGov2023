@@ -7,6 +7,6 @@ Deno.run({
 
 Deno.run({
     cmd: ["bundle", "exec", "jekyll", "serve", "-w"],
-    env: { PORT: "8080" },
+    env: { PORT: "8080", JEKYLL_ENV: "development" },
     stdin: "null", stdout: "inherit", stderr: "inherit"
 }).status();

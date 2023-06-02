@@ -9,7 +9,7 @@ permalink: /government/borders.json
 {% endcapture %}
 {
     "id": "civmc/icenia/territory",
-    "name": "Icenia Territory",
+    "name": "Icenian Territory",
     "info": {
         "version": "3.0.0-beta3",
         {% comment %} Use https://www.epochconverter.com/ to update the "last_update" timestamp {% endcomment %}
