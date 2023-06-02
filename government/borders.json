@@ -13,7 +13,7 @@ permalink: /government/borders.json
     "info": {
         "version": "3.0.0-beta3",
         {% comment %} Use https://www.epochconverter.com/ to update the "last_update" timestamp {% endcomment %}
-        "last_update": 1685705060
+        "last_update": 1685705536
     },
     "features": [
         {
@@ -50,12 +50,12 @@ permalink: /government/borders.json
             {{ territory_details }}
         },
         {
-            "name": "Tortugá (Icenia)",
-            "id": "civmc/icenia/territory/tortuga",
+            "name": "Tortugán (Icenia)",
+            "id": "civmc/icenia/territory/tortugan",
             "polygon": [
                 [[-6891,-400],[-7464,-402],[-7538,-235],[-7582,-104],[-7656,-26],[-7648,44],[-7628,79],[-7639,113],[-7624,179],[-7649,217],[-7650,240],[-7620,260],[-7630,330],[-7620,360],[-7630,420],[-7630,435],[-7610,440],[-7509,533],[-7444,545],[-7404,520],[-7416,492],[-7396,466],[-7322,468],[-7280,413],[-7254,395],[-7235,349],[-7249,322],[-7234,294],[-7233,273],[-7212,252],[-7133,281],[-7100,255],[-7052,258],[-7054,328],[-7009,364],[-7017,455],[-7026,468],[-7007,529],[-6975,519],[-6932,568],[-6899,556],[-6925,511],[-6897,487],[-6896,454],[-6861,438],[-6807,435],[-6746,394],[-6799,278],[-6726,243],[-6454,243],[-6242,35],[-6380,-96],[-6570,-91],[-6710,-222],[-6891,-221]]
             ],
-            "notes": "Tortugá became a State of Icenia on 28th May 2023.",
+            "notes": "Tortugán became a State of Icenia on 28th May 2023.",
             {{ territory_details }}
         },
         {
