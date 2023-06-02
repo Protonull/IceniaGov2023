@@ -15,18 +15,16 @@ layout: post
     <div class="govuk-grid-row">
 
         <div class="govuk-grid-column-two-thirds">
-            {% if page.document.value == "====" %}
+            {% if page.document.value == "" %}
                 {{ content | default: "<br/>" }}
             {% else %}
                 {% case page.document.type %}
                     {% when "markdown" %}
                         {{ page.document.value | markdownify }}
-                    {% when "inline-pdf" %}
-                        <iframe class="pdf-embed" src="data:application/pdf;base64,{{ page.document.value }}"></iframe>
                     {% when "local-file" %}
-                        <iframe class="pdf-embed" src="{{ page.document.value | absolute_url }}"></iframe>
+                        <iframe class="pdf-embed" src="{{ page.document.value | strip_newlines | absolute_url }}"></iframe>
                     {% when "remote-file" %}
-                        <iframe class="pdf-embed" src="{{ page.document.value }}"></iframe>
+                        <iframe class="pdf-embed" src="{{ page.document.value | strip_newlines }}"></iframe>
                     {% else %}
                         UNKNOWN DOCUMENT EMBED!
                 {% endcase %}
@@ -34,7 +32,7 @@ layout: post
         </div>
 
         <div class="govuk-grid-column-one-third">
-            {% unless page.document.value == "====" %}
+            {% unless page.document.value == "" %}
                 {{ content | default: "<br/>" }}
             {% endunless %}
 
