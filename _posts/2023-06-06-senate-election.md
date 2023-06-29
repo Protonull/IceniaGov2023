@@ -8,7 +8,7 @@ parties:
   - name: "Southshire Miner's Party"
     bgcolour: "#003300"
     txtcolour: "#F2F2F2"
-    members:
+    exmembers:
       - "Gentle__Giant"
   - name: "Homeowner's Association (HOA)"
     bgcolour: "#822E9F"
@@ -48,3 +48,5 @@ The Senate Election returned with the following results:
 - Orinnari: 16
 - Slushhi: 14
 - Gentle__Giant: 12
+
+Senator Gentle__Giant stepped down on the 11th. No by-election was held due to the war.
