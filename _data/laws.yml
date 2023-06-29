@@ -62,12 +62,6 @@ entries:
     fullname: Statehood for Southshire
     kind: statehood
     googledoc: https://docs.google.com/document/d/1FpIMYdX-XgWmsWD4hBbzdcN_1LFbTJCLu8Wdq5nRmPg/edit
-  - hidden: false
-    slug: statehood-for-tortugan
-    name: State of Tortugán
-    fullname: Statehood for Tortugán
-    kind: statehood
-    googledoc: https://docs.google.com/document/d/1NMz3GrM462YuyQp2JsTco_EakL-rbJ0W7sWc3dEV9oE/edit
   - hidden: true
     slug: agenda-for-future-growth
     name: Agendas for Future Growth Act
@@ -136,3 +130,9 @@ entries:
     fullname: Statehood for Petrichor
     googledoc: https://docs.google.com/document/d/15W1U7h2jFdmRa70KY71374luVs24sFQ5gawD9rWSlbU/edit
     kind: statehood
+  - hidden: true
+    slug: statehood-for-tortugan
+    name: State of Tortugán
+    fullname: Statehood for Tortugán
+    kind: statehood
+    googledoc: https://docs.google.com/document/d/1NMz3GrM462YuyQp2JsTco_EakL-rbJ0W7sWc3dEV9oE/edit
