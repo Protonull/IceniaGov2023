@@ -3,7 +3,7 @@ changetolaw: true
 layout: lawchange
 institution: senate
 headline: Passing the Protection of Life Bill
-date: 2023-03-10 21:39:00 +00:00
+date: 2023-03-10 21:39:01 +00:00
 document:
   type: local-file
   value: /archive/28fe00f3-10aa-4977-b9b5-c6f4c8a374cf.pdf
