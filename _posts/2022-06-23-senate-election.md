@@ -25,7 +25,7 @@ parties:
     txtcolour: "#3D3D3D"
     members:
       - Rinvincibl3
-      - Seared
+      - SeaRed
 excerpt: Rinvincibl3, Slushhi, Charlieseese, PhysicsGamer, and Searched elected to the Senate.
 icon: /assets/images/election_stock.png
 ---
@@ -35,7 +35,7 @@ The Senate Election returned with the following results:
 - Slushhi: 34
 - Charlieseese: 26
 - PhysicsGamer: 21
-- Seared: 20
+- SeaRed: 20
 
 The Senate then selected Senator Charlieseese as Speaker of the Senate, and LordChieftain as Secretary of the Interior.
 

@@ -18,6 +18,6 @@ This proposal was approved by the Senate and by President ChrisChrispie.<!--more
 - Senator Cammo: Aye
 - Senator Gjum: Aye
 - Senator Orinnari: Aye
-- Senator Seared: Aye
+- Senator SeaRed: Aye
 
 *(This Bill was perculiarly submitted by the Secretary of Defense: JuniorTide, but was nonetheless approved unanimously.)*

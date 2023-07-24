@@ -20,7 +20,7 @@ parties:
     bgcolour: "#222B8A"
     txtcolour: "#F2F2F2"
     members:
-      - Seared
+      - SeaRed
   - name: Sticks & Stones
     bgcolour: "#304044"
     txtcolour: "#F2F2F2"
@@ -33,7 +33,7 @@ parties:
       - Rinvincibl3
       - Gjum
       - MrJeremyFisher
-excerpt: Cammo, Gjum, Slushhi, Rinvincibl3, Shadno, Seared, and Orinnari elected to the Senate.
+excerpt: Cammo, Gjum, Slushhi, Rinvincibl3, Shadno, SeaRed, and Orinnari elected to the Senate.
 icon: /assets/images/election_stock.png
 ---
 The Senate Election returned with the following results:
@@ -43,7 +43,7 @@ The Senate Election returned with the following results:
 - Slushhi: 25
 - Rinvincibl3: 24
 - Shadno: 22
-- Seared: 21
+- SeaRed: 21
 - Orinnari: 19
 
 The Senate then retained Senator Rinvincibl3 as Speaker of the Senate for his fifth consecutive term, and retained Senator Xcios as the new Secretary of the Interior.

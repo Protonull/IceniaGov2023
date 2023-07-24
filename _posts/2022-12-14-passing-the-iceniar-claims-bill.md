@@ -18,4 +18,4 @@ Senator Orinnari's proposal was approved by the Senate and by President ChrisChr
 - Senator Cammo: Aye
 - Senator Gjum: Aye
 - Senator Orinnari: Aye
-- Senator Seared: Aye
+- Senator SeaRed: Aye

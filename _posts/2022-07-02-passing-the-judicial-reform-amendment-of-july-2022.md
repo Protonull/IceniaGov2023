@@ -17,5 +17,5 @@ Senator PhysicsGamer's Amendment was approved by the Senate and by President Chr
 - Speaker Charlieseese: Aye
 - Senator PhysicsGamer: Aye
 - Senator Rinvincibl3: Aye
-- Senator Seared: Nay
+- Senator SeaRed: Nay
 - Senator Slushhi: Aye

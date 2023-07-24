@@ -19,7 +19,7 @@ parties:
     bgcolour: "#222B8A"
     txtcolour: "#F2F2F2"
     members:
-      - Seared
+      - SeaRed
     exmembers:
       - JuniorTide
   - name: Independents
@@ -28,7 +28,7 @@ parties:
     members:
       - Rinvincibl3
       - Gjum
-excerpt: Orinnari, Cammo, Rinvincibl3, Gjum, and Seared elected to the Senate.
+excerpt: Orinnari, Cammo, Rinvincibl3, Gjum, and SeaRed elected to the Senate.
 icon: /assets/images/election_stock.png
 ---
 The Senate Election returned with the following results:
@@ -43,6 +43,6 @@ The Senate Election returned with the following results:
 
 President ChrisChrispie then appointed Senator JuniorTide as the new Secretary of Defense, triggering a by-election.
 
-Seared was subsequently elected to fill the vacant seat.
+SeaRed was subsequently elected to fill the vacant seat.
 
 The Senate then retained Senator Rinvincibl3 as Speaker of the Senate for his fourth consecutive term, and selected Xcios as the new Secretary of the Interior.

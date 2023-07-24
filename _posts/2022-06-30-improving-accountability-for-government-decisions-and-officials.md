@@ -17,5 +17,5 @@ Senator Rinvincibl3's proposal was approved by the Senate and by President Chris
 - Speaker Charlieseese: Aye
 - Senator PhysicsGamer: Aye
 - Senator Rinvincibl3: Aye
-- Senator Seared: Aye
+- Senator SeaRed: Aye
 - Senator Slushhi: Aye

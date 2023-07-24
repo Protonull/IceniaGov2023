@@ -12,10 +12,10 @@ changes:
     kind: passage
 icon: /assets/images/law_stock.jpeg
 ---
-Senators Slushhi and Seared's proposal was approved by the Senate and by President ChrisChrispie.<!--more-->
+Senators Slushhi and SeaRed's proposal was approved by the Senate and by President ChrisChrispie.<!--more-->
 
 - Speaker Charlieseese: Aye
 - Senator PhysicsGamer: Aye
 - Senator Rinvincibl3: Aye
-- Senator Seared: Aye
+- Senator SeaRed: Aye
 - Senator Slushhi: Aye

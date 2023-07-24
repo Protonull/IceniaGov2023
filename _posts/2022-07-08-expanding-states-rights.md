@@ -17,5 +17,5 @@ Senators PhysicsGamer and Slushhi's proposal was approved by the Senate and by P
 - Speaker Charlieseese: Aye
 - Senator PhysicsGamer: Aye
 - Senator Rinvincibl3: Aye
-- Senator Seared: Aye
+- Senator SeaRed: Aye
 - Senator Slushhi: Aye
